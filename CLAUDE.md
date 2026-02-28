@@ -112,6 +112,10 @@ Qualquer dedução, inferência ou opinião deve constar exclusivamente na colun
 
 A análise principal deve ser descritiva e comparativa.
 
+5.5 Legislação vigente
+
+A legislação que ainda não constar do repositório github deve ser consultada online na sua versão mais atual
+
 6. Estrutura das Tabelas (Excel e CSV)
 
 Cada linha deve conter:
