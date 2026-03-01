@@ -99,8 +99,12 @@ ARTIGOS = [
         },
         "divergencia": (
             "O @regulamento fixa o prazo de identificação em 3 meses para nascimentos e 30 dias para entrada em "
-            "estabelecimentos. O @codigo fixa entre 3 e 6 meses, sem distinguir o contexto de estabelecimento. "
-            "O @rgbeac alinha com o @regulamento mas aplica-se apenas a cães, gatos e furões."
+            "estabelecimentos. A @legislacao (DL n.º 82/2019, art.º 5.º) prevê um prazo geral de 120 dias após "
+            "o nascimento, sem distinguir o contexto de estabelecimento — prazo superior ao fixado pelo "
+            "@regulamento e que exigirá redução. O @codigo fixa entre 3 e 6 meses, igualmente sem distinção de "
+            "contexto. O @rgbeac alinha com o @regulamento nos prazos, mas aplica-se apenas a cães, gatos e "
+            "furões. Nenhum dos diplomas nacionais vigentes distingue o prazo de 30 dias aplicável a animais que "
+            "entram em estabelecimentos, previsto no @regulamento."
         ),
         "necessidade_alteracao": "Sim",
         "notas": "",
@@ -171,8 +175,11 @@ ARTIGOS = [
         },
         "divergencia": (
             "O @regulamento especifica o limite de 5 animais por família de acolhimento e atribui responsabilidade "
-            "ao operador (não à família). O @rgbeac e o @codigo centram a responsabilidade no detentor individual, "
-            "sem distinguir o contexto de acolhimento temporário nem fixar limites numéricos."
+            "ao operador (não à família). A @legislacao (DL n.º 276/2001, art.º 7.º) centra a responsabilidade no "
+            "detentor, sem distinguir o contexto de acolhimento temporário nem fixar limites numéricos — posição "
+            "idêntica à do @rgbeac e do @codigo. Nenhum dos diplomas nacionais, incluindo a legislação vigente, "
+            "prevê o conceito de família de acolhimento nem o limite numérico de 5 animais estabelecido pelo "
+            "@regulamento. A lacuna é transversal a toda a legislação nacional."
         ),
         "necessidade_alteracao": "Sim",
         "notas": "",
@@ -257,10 +264,14 @@ ARTIGOS = [
             ),
         },
         "divergencia": (
-            "O @regulamento exige notificação prévia das autoridades com dados detalhados (capacidade, raças, "
-            "ninhadas estimadas). O @codigo regula condições de reprodução mas não prevê registo ou notificação "
-            "de estabelecimentos criadores. O @rgbeac trata da esterilização de errantes, não da notificação de "
-            "criadores — há uma lacuna normativa face ao @regulamento."
+            "O @regulamento exige notificação prévia com dados detalhados, incluindo o número estimado de ninhadas "
+            "a colocar no mercado por ano (al. ea)). A @legislacao (DL n.º 276/2001, art.º 3.º-A) já prevê "
+            "comunicação prévia à DGAV com elementos parcialmente equivalentes (capacidade máxima, espécies, raças "
+            "— als. h) e i)), mas não exige a estimativa de ninhadas, constituindo lacuna parcial face ao "
+            "@regulamento. O @codigo regula condições de reprodução mas não prevê notificação ou registo de "
+            "estabelecimentos criadores. O @rgbeac trata exclusivamente da esterilização de errantes, sem qualquer "
+            "norma sobre notificação de criadores. A @legislacao vigente é, dos diplomas nacionais, o mais próximo "
+            "do @regulamento neste eixo, ainda que com lacuna relevante."
         ),
         "necessidade_alteracao": "Sim",
         "notas": "",
