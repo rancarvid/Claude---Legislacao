@@ -145,13 +145,16 @@ def cell_header(cell, text, bg_hex, text_hex="FFFFFF",
     add_run_styled(p, text, bold=bold, font_size=font_size, color_hex=text_hex)
 
 
-_RE_ALINEA = re.compile(r"^[a-z]\)|^\([a-z-]+\)")
-_RE_SUB    = re.compile(r"^[—–]\s|^[—–]$")
+_RE_ALINEA  = re.compile(r"^[a-z]\)|^\([a-z-]+\)")
+_RE_SUB     = re.compile(r"^[—–]\s|^[—–]$")
+_RE_ART_HDR = re.compile(r"^Artigo\s+\d+", re.IGNORECASE)
 
 
 def _classify_line(line):
-    """Devolve 'sub', 'alinea' ou 'normal'."""
+    """Devolve 'art-header', 'sub', 'alinea' ou 'normal'."""
     t = line.strip()
+    if _RE_ART_HDR.match(t):
+        return "art-header"
     if _RE_SUB.match(t):
         return "sub"
     if _RE_ALINEA.match(t):
@@ -193,7 +196,12 @@ def cell_body(cell, text, bg_hex, ref_text=None,
     # ── Corpo do texto: blocos separados por \n\n, linhas por \n ─────────
     blocos = [b for b in text.split("\n\n") if b.strip()]
     for bi, bloco in enumerate(blocos):
-        linhas = [l.strip() for l in bloco.split("\n") if l.strip()]
+        # Detectar bloco [dim] (texto secundário a cinza)
+        is_dim = bloco.startswith("[dim]")
+        bloco_txt = bloco[5:].strip() if is_dim else bloco
+        dim_hex = "AAAAAA" if is_dim else text_hex
+
+        linhas = [l.strip() for l in bloco_txt.split("\n") if l.strip()]
         for li, linha in enumerate(linhas):
             kind = _classify_line(linha)
             p = _add_para(cell, first)
@@ -204,23 +212,34 @@ def cell_body(cell, text, bg_hex, ref_text=None,
             if bi == 0 and li == 0 and not ref_text:
                 p.paragraph_format.space_before = Pt(4)
             elif li == 0:
-                p.paragraph_format.space_before = Pt(7)
+                p.paragraph_format.space_before = Pt(7) if kind != "alinea" else Pt(5)
             else:
                 p.paragraph_format.space_before = Pt(1)
 
             # Indentação por tipo
-            if kind == "sub":
+            if kind == "art-header":
+                p.paragraph_format.left_indent = Pt(4)
+                p.paragraph_format.first_line_indent = Pt(0)
+                # Linha separadora via espaço antes aumentado (exceto primeiro)
+                if bi > 0:
+                    p.paragraph_format.space_before = Pt(10)
+                add_run_styled(p, linha, bold=True, italic=False,
+                               font_size=font_size - 0.5, color_hex="333333")
+            elif kind == "sub":
                 p.paragraph_format.left_indent = Pt(34)
                 p.paragraph_format.first_line_indent = Pt(-14)
+                add_run_styled(p, linha, bold=bold, italic=italic,
+                               font_size=font_size, color_hex=dim_hex)
             elif kind == "alinea":
                 p.paragraph_format.left_indent = Pt(18)
                 p.paragraph_format.first_line_indent = Pt(-14)
+                add_run_styled(p, linha, bold=bold, italic=italic,
+                               font_size=font_size, color_hex=dim_hex)
             else:
                 p.paragraph_format.left_indent = Pt(4)
                 p.paragraph_format.first_line_indent = Pt(0)
-
-            add_run_styled(p, linha, bold=bold, italic=italic,
-                           font_size=font_size, color_hex=text_hex)
+                add_run_styled(p, linha, bold=bold, italic=italic,
+                               font_size=font_size, color_hex=dim_hex)
 
 
 # ---------------------------------------------------------------------------

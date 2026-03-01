@@ -528,51 +528,88 @@ ARTIGOS = [
         "id": "ART-13",
         "tema": "Saúde e Monitorização Sanitária",
         "regulamento": {
-            "ref": "Art.º 13.º do Regulamento 2023/0447",
+            "ref": "Art.º 13.º (Health) do Regulamento 2023/0447 (PE/Conselho)",
             "texto": (
-                "Operators shall ensure that:\n\n"
+                "1. Operators shall ensure that:\n\n"
                 "(a) dogs or cats under their responsibility are inspected by animal caretakers at least once a "
                 "day and vulnerable dogs and cats, such as newborns, ill or injured dogs and cats, and "
-                "peri-partum bitches and queens, are inspected more frequently;\n\n"
+                "peri-partum bitches and queens, are inspected more frequently;\n"
                 "(b) dogs or cats with compromised welfare are, where necessary, transferred without undue delay "
-                "to a separate area and, where needed, receive appropriate treatment;\n\n"
+                "to a separate area and, where needed, receive appropriate treatment;\n"
                 "(c) where the recovery of a dog or a cat with compromised welfare is not achievable and the dog "
                 "or cat experiences severe pain or suffering, a veterinarian is consulted without undue delay, to "
                 "decide whether the dog or cat shall be euthanised to end its suffering, and, if that is the "
-                "case, to perform the euthanasia using anesthesia and analgesia;\n\n"
+                "case, to perform the euthanasia using anesthesia and analgesia;\n"
                 "(d) measures to prevent and control external and internal parasites, and vaccinations to prevent "
-                "common diseases to which dogs or cats are likely to be exposed are implemented.\n\n"
-                "Operators of breeding establishments shall additionally ensure that:\n"
-                "(-a) bitches or queens are only bred if they have reached a minimum age and skeletal maturity "
+                "common diseases to which dogs or cats are likely to be exposed are implemented;\n"
+                "(e) enrichment do not present a significant risk of injury or biological or chemical "
+                "contamination or any other health risk.\n\n"
+                "[dim]Point (a) shall not apply to livestock guardian dogs kept in breeding establishments during "
+                "the periods when such dogs are used for guarding or training purposes.\n\n"
+                "[dim]Member states may grant derogations from point (c) in cases of emergencies, where no "
+                "veterinarian can be reached without undue delay, provided that national rules are put in place "
+                "to ensure that:\n"
+                "(i) an immediate action ending the life of the dog or cat with minimum pain and suffering using "
+                "a method inducing instant death is undertaken by a trained competent person;\n"
+                "(ii) the operator keeps a record of the use of the derogation for purposes of the official "
+                "control.\n\n"
+                "2. Operators of breeding establishments shall additionally ensure that:\n\n"
+                "(-a) measures are taken to safeguard the health of dogs or cats in accordance with point 3 of "
+                "Annex I;\n"
+                "(-b) bitches or queens are only bred if they have reached a minimum age and skeletal maturity "
                 "in accordance with point 3 of Annex I, and they have no diagnosed disease, clinical sign of "
                 "diseases or physical conditions which could negatively impact their pregnancy and welfare;\n"
-                "(-b) litter-giving pregnancies of bitches or queens follows a maximum frequency in accordance "
+                "(-c) litter-giving pregnancies of bitches or queens follows a maximum frequency in accordance "
                 "with point 3 of Annex I;\n"
-                "(-c) lactating queens are not mated or inseminated."
+                "(-d) lactating queens are not mated or inseminated;\n"
+                "(-e) dogs and cats which are no longer used for reproduction, including as a result of the "
+                "provisions of this Regulation, are either kept or sold, donated or rehomed, not killed or "
+                "abandoned."
             ),
             "traducao": (
-                "Os operadores devem assegurar que:\n\n"
+                "1 — Os operadores devem assegurar que:\n\n"
                 "(a) os cães e gatos sob a sua responsabilidade são inspecionados por cuidadores pelo menos uma "
-                "vez por dia, e os animais vulneráveis, como recém-nascidos, doentes, lesionados, fêmeas em "
-                "período peri-parto, são inspecionados com maior frequência;\n\n"
-                "(b) os cães e gatos com bem-estar comprometido são transferidos, quando necessário, sem demora "
-                "injustificada para área separada e, se necessário, recebem tratamento adequado;\n\n"
-                "(c) quando a recuperação de um animal com bem-estar comprometido não seja alcançável e o animal "
-                "experiencie dor ou sofrimento severo, um médico veterinário é consultado sem demora injustificada "
-                "para decidir sobre a eutanásia, que, se realizada, é executada com anestesia e analgesia;\n\n"
+                "vez por dia, e os animais vulneráveis, como recém-nascidos, doentes, lesionados e fêmeas em "
+                "período peri-parto, são inspecionados com maior frequência;\n"
+                "(b) os cães e gatos com bem-estar comprometido são, quando necessário, transferidos sem demora "
+                "injustificada para uma área separada e, se necessário, recebem tratamento adequado;\n"
+                "(c) quando a recuperação de um cão ou gato com bem-estar comprometido não seja alcançável e o "
+                "animal experiencie dor ou sofrimento severo, um médico veterinário é consultado sem demora "
+                "injustificada para decidir se o animal deve ser objeto de eutanásia para pôr termo ao seu "
+                "sofrimento e, em caso afirmativo, para realizar a eutanásia com recurso a anestesia e analgesia;\n"
                 "(d) são implementadas medidas de prevenção e controlo de parasitas externos e internos, bem como "
-                "vacinações para prevenção de doenças comuns.\n\n"
-                "Os operadores de estabelecimentos de criação devem adicionalmente assegurar que:\n"
-                "(-a) as cadelas ou gatas só são reproduzidas se tiverem atingido a idade mínima e maturidade "
-                "esquelética nos termos do Anexo I, e não apresentem doença diagnosticada, sinais clínicos ou "
-                "condições físicas que possam impactar negativamente a gestação e o bem-estar;\n"
-                "(-b) a frequência de gestações com ninhadas respeita o máximo fixado no Anexo I;\n"
-                "(-c) as gatas a lactar não são acasaladas nem inseminadas."
+                "vacinações para prevenção de doenças comuns às quais os cães ou gatos são suscetíveis de estar "
+                "expostos;\n"
+                "(e) os enriquecimentos não apresentam risco significativo de lesões ou de contaminação biológica "
+                "ou química, nem qualquer outro risco para a saúde.\n\n"
+                "[dim]A alínea (a) não se aplica aos cães de guarda de gado mantidos em estabelecimentos de "
+                "criação durante os períodos em que tais cães são utilizados para fins de guarda ou treino.\n\n"
+                "[dim]Os Estados-Membros podem conceder derrogações relativamente à alínea (c) em casos de "
+                "emergência, quando não seja possível contactar um médico veterinário sem demora injustificada, "
+                "desde que sejam estabelecidas regras nacionais que assegurem que:\n"
+                "(i) é tomada imediatamente uma ação que ponha fim à vida do cão ou gato com o mínimo de dor e "
+                "sofrimento, utilizando um método que induza a morte instantânea, por uma pessoa competente e "
+                "devidamente habilitada;\n"
+                "(ii) o operador mantém um registo da utilização da derrogação para efeitos de controlo oficial.\n\n"
+                "2 — Os operadores de estabelecimentos de criação devem adicionalmente assegurar que:\n\n"
+                "(-a) são tomadas medidas para salvaguardar a saúde dos cães ou gatos em conformidade com o "
+                "ponto 3 do Anexo I;\n"
+                "(-b) as cadelas ou gatas só são reproduzidas se tiverem atingido a idade mínima e a maturidade "
+                "esquelética em conformidade com o ponto 3 do Anexo I, e não apresentem doença diagnosticada, "
+                "sinais clínicos de doença ou condições físicas que possam impactar negativamente a gestação e o "
+                "seu bem-estar;\n"
+                "(-c) a frequência de gestações com ninhadas de cadelas ou gatas respeita a frequência máxima "
+                "fixada no ponto 3 do Anexo I;\n"
+                "(-d) as gatas a lactar não são acasaladas nem inseminadas;\n"
+                "(-e) os cães e gatos que deixem de ser utilizados para reprodução, nomeadamente em resultado das "
+                "disposições do presente Regulamento, são mantidos ou vendidos, doados ou realojados, não sendo "
+                "mortos nem abandonados."
             ),
         },
         "rgbeac": {
-            "ref": "n.ºs 1, 2 e 3 do art.º 33.º do RGBEAC (proposta, jun. 2025)",
+            "ref": "Art.º 33.º do RGBEAC — Regime Geral do Bem-Estar dos Animais de Companhia (proposta, jun. 2025)",
             "texto": (
+                "Artigo 33.º — Cuidados de saúde\n\n"
                 "1 — Os detentores dos animais de companhia devem assegurar-lhes os cuidados de saúde adequados, "
                 "nomeadamente seguindo as orientações da DGAV em matéria de vacinação e tratamentos obrigatórios, "
                 "bem como consultas regulares junto de médico veterinário.\n\n"
@@ -581,54 +618,90 @@ ARTIGOS = [
                 "recuperação, devem ser tratados por médico veterinário.\n\n"
                 "3 — Os médicos veterinários e os centros de atendimento médico-veterinário (CAMV) devem manter "
                 "um arquivo com os dados clínicos de cada animal, pelo período mínimo de cinco anos, que ficará "
-                "à disposição das autoridades competentes."
+                "à disposição das autoridades competentes.\n\n"
+                "[dim]4 — Os CAMV, enquanto estabelecimentos de saúde, colaborarão na vigilância epidemiológica "
+                "das doenças de notificação obrigatória que detetem e no seu controlo.\n\n"
+                "[dim]5 — Os médicos veterinários denunciam, junto da DGAV ou demais entidades com competência "
+                "de fiscalização do cumprimento das normas constantes do presente decreto-lei, sempre que, no "
+                "exercício de sua profissão, suspeitem de maus-tratos a animais de companhia."
             ),
         },
         "codigo": {
-            "ref": "art.º 6.º do Código do Animal (DL n.º 214/2013)",
+            "ref": "Art.º 6.º (Cuidados médico-veterinários) do Código do Animal — DL n.º 214/2013",
             "texto": (
+                "Artigo 6.º — Cuidados médico-veterinários\n\n"
                 "O detentor do animal deve assegurar ao animal ferido ou doente os cuidados médico-veterinários "
                 "adequados, designadamente retirando o mesmo do alojamento sempre que este seja um local de venda."
             ),
         },
         "legislacao": {
-            "ref": "n.ºs 1 e 3 do art.º 13.º e n.ºs 1 e 2 do art.º 16.º do DL n.º 276/2001, de 17 de outubro",
+            "ref": (
+                "Art.º 13.º (Maneio) e art.º 16.º (Cuidados de saúde animal) "
+                "do DL n.º 276/2001, de 17 de outubro"
+            ),
             "texto": (
-                "Artigo 13.º, n.º 1 — A observação diária dos animais e o seu maneio, a organização da dieta e "
-                "o tratamento médico-veterinário devem ser assegurados por pessoal técnico competente e em número "
-                "adequado à quantidade e espécies animais que alojam.\n\n"
-                "Artigo 13.º, n.º 3 — Todos os animais devem ser alvo de inspeção diária, sendo de imediato "
-                "prestados os primeiros cuidados aos que tiverem sinais que levem a suspeitar estarem doentes, "
-                "lesionados ou com alterações comportamentais.\n\n"
-                "Artigo 16.º, n.º 1 — Sem prejuízo de quaisquer medidas determinadas pela DGAV, deve existir um "
-                "programa de profilaxia médica e sanitária devidamente elaborado e supervisionado pelo médico "
-                "veterinário responsável e executado por profissionais competentes.\n\n"
-                "Artigo 16.º, n.º 2 — No âmbito do número anterior, os animais devem ser sujeitos a exames "
-                "médico-veterinários de rotina, vacinações e desparasitações sempre que aconselhável."
+                "Artigo 13.º — Maneio\n\n"
+                "1 — A observação diária dos animais e o seu maneio, a organização da dieta e o tratamento "
+                "médico-veterinário devem ser assegurados por pessoal técnico competente e em número adequado "
+                "à quantidade e espécies animais que alojam.\n\n"
+                "[dim]2 — O maneio deve ser feito por pessoal que possua formação teórica e prática específica "
+                "ou sob a supervisão de uma pessoa competente para o efeito.\n\n"
+                "3 — Todos os animais devem ser alvo de inspeção diária, sendo de imediato prestados os primeiros "
+                "cuidados aos que tiverem sinais que levem a suspeitar estarem doentes, lesionados ou com "
+                "alterações comportamentais.\n\n"
+                "[dim]4 — O manuseamento dos animais deve ser feito de forma a não lhes causar quaisquer dores, "
+                "sofrimento ou distúrbios desnecessários.\n\n"
+                "[dim]5 — Quando houver necessidade de recorrer a meios de contenção, não devem estes causar "
+                "ferimentos, dores ou angústia desnecessários aos animais.\n\n"
+                "Artigo 16.º — Cuidados de saúde animal\n\n"
+                "1 — Sem prejuízo de quaisquer medidas determinadas pela DGAV, deve existir um programa de "
+                "profilaxia médica e sanitária devidamente elaborado e supervisionado pelo médico veterinário "
+                "responsável e executado por profissionais competentes.\n\n"
+                "2 — No âmbito do número anterior, os animais devem ser sujeitos a exames médico-veterinários "
+                "de rotina, vacinações e desparasitações sempre que aconselhável.\n\n"
+                "3 — Os animais que apresentem sinais que levem a suspeitar de poderem estar doentes ou "
+                "lesionados devem receber os primeiros cuidados pelo detentor e, se não houver indícios de "
+                "recuperação, devem ser tratados por médico veterinário.\n\n"
+                "4 — Sempre que se justifique, os animais doentes ou lesionados devem ser isolados em "
+                "instalações adequadas e equipadas, se for caso disso, com cama seca e confortável.\n\n"
+                "[dim]5 — Os medicamentos, produtos ou substâncias de prescrição médico-veterinária devem ser "
+                "armazenados em locais secos e com acesso restrito.\n\n"
+                "[dim]6 — A administração e utilização de medicamentos, produtos ou substâncias referidas no "
+                "número anterior deve ser feita sob orientação do médico veterinário responsável."
             ),
         },
         "divergencia": {
             "legislacao": (
-                "O DL n.º 276/2001 (art.ºs 13.º e 16.º) prevê inspeção diária e programa de profilaxia "
-                "supervisionado por veterinário — alinhamento parcial. Não fixa condições sanitárias "
-                "específicas para reprodução em criadores: sem idade mínima da fêmea, sem frequência "
-                "máxima de partos, sem proibição de cobrição de fêmeas a lactar."
+                "O DL n.º 276/2001 prevê inspeção diária (n.º 3 do art.º 13.º) e programa de profilaxia "
+                "supervisionado por veterinário (n.º 1 do art.º 16.º) — alinhamento parcial com as als. (a) e "
+                "(d) do n.º 1 do art.º 13.º do @regulamento. Lacunas: (1) não distingue animais vulneráveis com "
+                "maior frequência de inspeção; (2) não prevê isolamento em área separada com tratamento (al. (b)); "
+                "(3) não exige consulta veterinária para decisão de eutanásia com anestesia/analgesia (al. (c)); "
+                "(4) nenhuma das obrigações sanitárias para criadores previstas no n.º 2 está contemplada: sem "
+                "idade mínima de reprodução, sem frequência máxima de partos, sem proibição de cobrição de fêmeas "
+                "a lactar, sem regime de rehoming."
             ),
             "codigo": (
-                "O @codigo (art.º 6.º) limita o dever de cuidados médico-veterinários ao animal ferido "
-                "ou doente, sem obrigação de inspeção diária sistemática nem quaisquer regras sanitárias "
-                "específicas para a reprodução em criadores."
+                "O @codigo limita os cuidados médico-veterinários ao animal ferido ou doente (art.º 6.º) — sem "
+                "qualquer obrigação de inspeção diária, programa de profilaxia ou isolamento. É o diploma com "
+                "maior divergência face ao n.º 1 do art.º 13.º do @regulamento, omitindo igualmente todas as "
+                "obrigações sanitárias específicas para criadores previstas no n.º 2."
             ),
             "rgbeac": (
-                "O @rgbeac (art.º 33.º) centra os cuidados de saúde no detentor em geral, sem distinguir "
-                "obrigações reforçadas para operadores de criação nem fixar condições específicas para a "
-                "reprodução (idade mínima, frequência de partos, lactação)."
+                "O @rgbeac (art.º 33.º) centra os cuidados de saúde no detentor em geral (n.ºs 1 a 3), sem "
+                "distinguir obrigações reforçadas para operadores de criação. Não prevê: inspeção diária "
+                "sistemática por cuidadores; isolamento imediato de animais com bem-estar comprometido; nem "
+                "qualquer dos requisitos sanitários para criadores do n.º 2 do art.º 13.º do @regulamento. Os "
+                "n.ºs 4 e 5 (CAMV e denúncia de maus-tratos) não têm correspondência direta no @regulamento."
             ),
             "sumario": (
-                "A @legislacao vigente é o diploma mais próximo do @regulamento. Necessidade de alteração "
-                "dirigida a criadores: introduzir (1) requisitos mínimos de idade e maturidade das fêmeas; "
-                "(2) frequência máxima de partos conforme Anexo I do @regulamento; (3) proibição de "
-                "cobrição de fêmeas a lactar; alinhando com o regime sanitário do art.º 13.º."
+                "A @legislacao vigente (DL n.º 276/2001) tem o maior alinhamento, mas insuficiente. Necessidade "
+                "de alteração dos três diplomas: (1) introduzir inspeção diária diferenciada para animais "
+                "vulneráveis (al. (a) do n.º 1 do art.º 13.º do @regulamento); (2) criar obrigação de isolamento "
+                "e tratamento imediato (al. (b)); (3) regular o processo de eutanásia com supervisão veterinária "
+                "e anestesia/analgesia (al. (c)); (4) para criadores (n.º 2): fixar idade mínima e maturidade "
+                "esquelética das fêmeas reprodutoras, frequência máxima de partos conforme Anexo I, proibição de "
+                "cobrição de fêmeas a lactar, e regime de rehoming dos animais retirados da reprodução."
             ),
         },
         "necessidade_alteracao": "Sim",
@@ -922,6 +995,17 @@ def criar_html(path, artigos):
     margin: 2px 0; line-height: 1.55;
     padding-left: 3.2em; text-indent: -1.0em;
   }}
+  /* Texto secundário (cinza) */
+  .leg-block.leg-dim p {{ color: #b0b0b0; }}
+  /* Cabeçalho de artigo dentro de coluna (múltiplos artigos por diploma) */
+  .leg-art-header {{
+    font-weight: 700; font-size: .8rem; margin: 10px 0 3px;
+    padding-top: 8px; border-top: 1px dashed rgba(0,0,0,.2);
+    display: block;
+  }}
+  .leg-block:first-child > .leg-art-header:first-child {{
+    margin-top: 0; padding-top: 0; border-top: none;
+  }}
 
   /* DIVERGÊNCIA ESTRUTURADA */
   .div-section {{ margin-bottom: 10px; }}
@@ -1151,10 +1235,16 @@ function formatarTexto(str) {{
   if (!str) return '';
   const blocos = str.split(/\\n\\n+/);
   return blocos.map(bloco => {{
-    const linhas = bloco.split('\\n').filter(l => l.trim() !== '');
+    const isDim = bloco.startsWith('[dim]');
+    const blockText = isDim ? bloco.slice(5) : bloco;
+    const dimCls = isDim ? ' leg-dim' : '';
+    const linhas = blockText.split('\\n').filter(l => l.trim() !== '');
     if (!linhas.length) return '';
     const ps = linhas.map(linha => {{
       const t = linha.trim();
+      if (/^Artigo\\s+\\d+/i.test(t)) {{
+        return `<p class="leg-art-header">${{hl(t)}}</p>`;
+      }}
       if (/^[—–]\\s/.test(t) || t === '—' || t === '–') {{
         return `<p class="leg-sub">${{hl(t)}}</p>`;
       }}
@@ -1163,7 +1253,7 @@ function formatarTexto(str) {{
       }}
       return `<p class="leg-p">${{hl(t)}}</p>`;
     }}).join('');
-    return `<div class="leg-block">${{ps}}</div>`;
+    return `<div class="leg-block${{dimCls}}">${{ps}}</div>`;
   }}).join('');
 }}
 
