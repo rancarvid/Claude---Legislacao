@@ -122,6 +122,19 @@ A análise deve:
 3. **Ordem de apresentação**: EN primeiro, PT-PT segundo.
 4. Resultado final: **duas citações** (original EN + tradução PT-PT).
 
+### 5.3a Ficheiros de Referência para Tradução (Parecer, Votação, Tradução)
+
+**Regra clara**: Os ficheiros com "parecer", "votação" ou "tradução" no nome são **APENAS FONTES DE APOIO** para auxílio na tradução do @regulamento.
+
+**Metodologia de tradução**:
+1. Extrair o texto original em **inglês** do `@regulamento` (11.12.2025 Regulamento cães e gatos-ocr - sem rasuras.docx)
+2. Consultar os ficheiros de referência (parecer, votação, tradução) para **verificar como esses conceitos já foram traduzidos** em documentos anteriores
+3. Utilizar essa terminologia consolidada como **base de referência** para manter coerência terminológica
+4. Realizar a tradução PT-PT **diretamente a partir do inglês**, sem citar os ficheiros de referência como fonte
+5. **Nunca referenciar** esses ficheiros na documentação final — utilizar apenas como ferramenta de consulta interna
+
+**Resultado esperado**: Traduções coerentes, consistentes e baseadas em terminologia consolidada da legislação europeia, sem dependência de ficheiros externos.
+
 ### 5.4 Observações
 
 - Qualquer **dedução, inferência ou opinião** deve constar exclusivamente na coluna "Observações".
