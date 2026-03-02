@@ -950,51 +950,59 @@ ARTIGOS = [
             ),
         },
         "rgbeac": {
-            "ref": "Art.º 11.º do RGBEAC (proposta, jun. 2025)",
+            "ref": "Art.ºs 69.º, 84.º e 90.º do RGBEAC (proposta, jun. 2025)",
             "texto": (
-                "1 — Os operadores de estabelecimentos devem assegurar que os cuidadores de animais possuem conhecimentos e competências adequados "
-                "em bem-estar animal, comportamento e cuidados específicos de cada espécie.\n\n"
-                "2 — Os conhecimentos e competências devem ser adquiridos através de:\n"
-                "a) Formação profissional reconhecida;\n"
-                "b) Experiência prática documentada;\n"
-                "c) Cursos de capacitação específicos.\n\n"
-                "3 — Os operadores devem assegurar que existe sempre um cuidador com formação completa e que este transmita conhecimentos aos restantes."
+                "Artigo 69.º — Formação\n\n"
+                "A reprodução, criação, manutenção, venda ou treino de animais de companhia depende de aprovação em formação sobre detenção "
+                "responsável de animais de companhia, bem como sobre as necessidades fisiológicas e etológicas específicas da espécie animal "
+                "em causa, ministrada pelo ICNF, I.P. ou entidades por este certificadas.\n\n"
+                "Artigo 84.º — Pessoal\n\n"
+                "O pessoal responsável pelas tarefas referidas no artigo 82.º deve possuir os conhecimentos e a experiência adequados para as "
+                "executar.\n\n"
+                "Artigo 90.º — Pessoal\n\n"
+                "O pessoal auxiliar deve possuir os conhecimentos e a experiência adequada, o qual fica, contudo, sob a orientação do médico "
+                "veterinário responsável."
             ),
         },
         "codigo": {
-            "ref": "Art.º 40.º do Código do Animal (DL n.º 214/2013)",
+            "ref": "Art.º 19.º do Código do Animal (DL n.º 214/2013)",
             "texto": (
-                "1 — Os operadores de estabelecimentos devem assegurar que o maneio dos animais é efetuado por pessoal com formação teórica e prática "
-                "em bem-estar animal.\n\n"
-                "2 — A formação deve incluir conhecimento sobre necessidades comportamentais, saúde e bem-estar específicos da espécie.\n\n"
-                "3 — O pessoal deve ser supervisionado por pessoa com experiência certificada em bem-estar animal."
+                "Artigo 19.º — Pessoal auxiliar\n\n"
+                "Os alojamentos devem dispor de pessoal auxiliar que possua os conhecimentos e a aptidão necessária para assegurar os cuidados "
+                "adequados aos animais, o qual fica sob a orientação do médico veterinário responsável."
             ),
         },
         "legislacao": {
-            "ref": "n.º 2 do art.º 13.º do DL n.º 276/2001, de 17 de outubro",
+            "ref": "Art.º 13.º do DL n.º 276/2001, de 17 de outubro",
             "texto": (
-                "O maneio deve ser feito por pessoal que possua formação teórica e prática específica ou sob a supervisão de uma pessoa "
-                "competente para o efeito."
+                "Artigo 13.º — Maneio\n\n"
+                "1 — A observação diária dos animais e o seu maneio, a organização da dieta e o tratamento médico-veterinário devem ser "
+                "assegurados por pessoal técnico competente e em número adequado à quantidade e espécies animais que alojam.\n\n"
+                "2 — O maneio deve ser feito por pessoal que possua formação teórica e prática específica ou sob a supervisão de uma pessoa "
+                "competente para o efeito.\n\n"
+                "3 — Todos os animais devem ser alvo de inspeção diária, sendo de imediato prestados os primeiros cuidados."
             ),
         },
         "divergencia": {
             "legislacao": (
-                "O DL n.º 276/2001 exige 'formação teórica e prática' mas não especifica competências concretas em bem-estar animal. "
-                "O @regulamento detalha 4 competências específicas (comportamento, reconhecimento de sofrimento, maneio, conhecimento de "
-                "obrigações) e formaliza a certificação de educação/formação/experiência."
+                "O DL n.º 276/2001 (art.º 13.º) exige pessoal 'técnico competente' com 'formação teórica e prática específica' e 'inspeção "
+                "diária', mas não detalha competências concretas. O @regulamento especifica 4 competências estruturadas (comportamento biológico, "
+                "reconhecimento de sofrimento, maneio e bem-estar, conhecimento de obrigações) e exige documentação de educação/formação/experiência."
             ),
             "codigo": (
-                "O @codigo (art.º 40.º) é mais prescritivo que a legislação vigente mas menos detalhado que o @regulamento. Menciona "
-                "'bem-estar animal' e 'necessidades comportamentais' mas sem as 4 competências específicas."
+                "O @codigo (art.º 19.º) é genérico: exige apenas 'conhecimentos e aptidão necessária' sob orientação do médico veterinário "
+                "responsável. Não detalha competências concretas nem exigências de formação formal."
             ),
             "rgbeac": (
-                "O @rgbeac aproxima-se do nível de detalhe do @regulamento, mencionando formação, experiência e transmissão de conhecimento, "
-                "mas ainda sem a especificação das 4 competências de forma estruturada."
+                "O @rgbeac (art.ºs 69.º, 84.º, 90.º) aproxima-se mais do @regulamento: exige 'conhecimentos e experiência adequados', menciona "
+                "'necessidades fisiológicas e etológicas', exige formação certificada pelo ICNF. Lacuna: não detalha as 4 competências específicas "
+                "do @regulamento (reconhecimento de sofrimento, condicionamento operante, etc.)."
             ),
             "sumario": (
-                "Necessidade de alteração: (1) detalhar as 4 competências obrigatórias em legislação nacional; (2) formalizar requisito de "
-                "documentação de educação/formação/experiência; (3) criar mecanismo de certificação de competências; (4) exigir que operador "
-                "designe um cuidador responsável com formação completa que transmita conhecimento aos demais."
+                "Alinhamento parcial do @rgbeac com @regulamento. Para @codigo e @legislacao, necessidade de: (1) detalhar as 4 competências "
+                "específicas (comportamento, reconhecimento de sofrimento, maneio positivo, conhecimento de obrigações); (2) exigir documentação "
+                "formal de educação/formação/experiência; (3) requerer que operador designe formador responsável que transfira conhecimento; "
+                "(4) implementar requisitos mínimos de formação via regulamento delegado."
             ),
         },
         "necessidade_alteracao": "Sim",
@@ -1036,49 +1044,67 @@ ARTIGOS = [
             ),
         },
         "rgbeac": {
-            "ref": "Art.º 36.º do RGBEAC (proposta, jun. 2025)",
+            "ref": "Art.º 56.º do RGBEAC (proposta, jun. 2025)",
             "texto": (
-                "1 — Os operadores de estabelecimentos de criação e venda devem assegurar avaliações veterinárias periódicas de bem-estar animal.\n\n"
-                "2 — A primeira avaliação deve ocorrer no prazo de um ano após notificação do estabelecimento.\n\n"
-                "3 — As avaliações subsequentes devem ocorrer conforme avaliação de risco pelas autoridades competentes.\n\n"
-                "4 — Os resultados e recomendações das avaliações devem ser registados e mantidos por um período mínimo de 4 anos."
+                "Artigo 56.º — Médico veterinário responsável pelo alojamento\n\n"
+                "1 — Os titulares da exploração de alojamentos para hospedagem, com exceção dos alojamentos para hospedagem com fins higiénicos, "
+                "devem ter ao seu serviço um médico veterinário responsável pelo alojamento.\n\n"
+                "2 — Ao médico veterinário responsável pelo alojamento compete:\n"
+                "a) A elaboração de parecer relativo à verificação das condições higiossanitárias e de bem-estar animal exigidas no presente decreto-lei;\n"
+                "b) A elaboração e a execução de programas e ações que visem a saúde e o bem-estar dos animais e o seu acompanhamento, bem como a "
+                "emissão de pareceres relativos à saúde e ao bem-estar dos animais;\n"
+                "c) A orientação técnica do pessoal responsável pela observação, maneio e prestação de cuidados aos animais;\n"
+                "d) A colaboração com as autoridades competentes em todas as ações que estas determinem."
             ),
         },
         "codigo": {
-            "ref": "Art.º 41.º do Código do Animal (DL n.º 214/2013)",
+            "ref": "Art.º 32.º do Código do Animal (DL n.º 214/2013)",
             "texto": (
-                "1 — Os operadores de estabelecimentos devem submeter-se a inspeções veterinárias periódicas de bem-estar animal.\n\n"
-                "2 — As inspeções devem avaliar conformidade com parâmetros de bem-estar e identificar riscos à saúde e bem-estar dos animais.\n\n"
-                "3 — Recomendações de inspeções devem ser registadas e implementadas pelo operador."
+                "Artigo 32.º — Médico veterinário responsável pelo alojamento\n\n"
+                "1 — Os titulares da exploração de alojamentos para hospedagem sem fins lucrativos e com fins lucrativos de animais, com exceção "
+                "dos com fins higiénicos, necessitam de ter ao seu serviço um médico veterinário que seja responsável pelo alojamento.\n\n"
+                "2 — Ao médico veterinário responsável pelo alojamento compete:\n"
+                "a) A elaboração e execução de programas que visem a saúde e o bem-estar dos animais e o seu acompanhamento, bem como a emissão "
+                "de pareceres relativos à saúde e ao bem-estar dos animais;\n"
+                "b) A orientação técnica do pessoal que cuida dos animais;\n"
+                "c) A colaboração com as autoridades competentes em todas as ações que estas determinarem."
             ),
         },
         "legislacao": {
-            "ref": "Art.º 19.º do DL n.º 276/2001, de 17 de outubro",
+            "ref": "Art.º 4.º do DL n.º 276/2001, de 17 de outubro",
             "texto": (
-                "1 — Os estabelecimentos de criação, venda e alojamento de animais devem ser objeto de inspecções regulares por veterinário.\n\n"
-                "2 — O veterinário deve avaliar conformidade com os parâmetros de bem-estar e elaborar relatório.\n\n"
-                "3 — O operador deve manter cópia do relatório de inspeção por período determinado."
+                "Artigo 4.º — Médico veterinário responsável pelo alojamento\n\n"
+                "1 — Os titulares da exploração de alojamentos para hospedagem sem fins lucrativos e com fins lucrativos de animais, com exceção "
+                "dos alojamentos para hospedagem com fins higiénicos, devem ter ao seu serviço um médico veterinário que seja responsável pelo alojamento.\n\n"
+                "2 — Ao médico veterinário responsável pelo alojamento compete:\n"
+                "a) A elaboração e a execução de programas e ações que visem a saúde e o bem-estar dos animais e o seu acompanhamento, bem como a "
+                "emissão de pareceres relativos à saúde e ao bem-estar dos animais;\n"
+                "b) A orientação técnica do pessoal que cuida dos animais;\n"
+                "c) A colaboração com as autoridades competentes em todas as ações que estas determinarem."
             ),
         },
         "divergencia": {
             "legislacao": (
-                "O DL n.º 276/2001 (art.º 19.º) exige inspeções regulares mas não especifica prazo (1 ano após notificação). "
-                "O @regulamento é mais prescritivo: 1.ª visita obrigatória no 1.º ano, depois conforme análise de risco, com "
-                "manutenção de registos por 4 anos e transmissão ao veterinário subsequente."
+                "O DL n.º 276/2001 (art.º 4.º) estabelece a obrigação de ter médico veterinário responsável que execute 'programas e ações' para "
+                "saúde e bem-estar, mas não especifica que essa avaliação deve ocorrer em prazo determinado (ex.: 1 ano) ou que os registos devem "
+                "ser mantidos por período específico (4 anos). O @regulamento é mais prescritivo neste aspecto."
             ),
             "codigo": (
-                "O @codigo (art.º 41.º) menciona inspeções periódicas mas sem prazos específicos. Menos detalhado que ambos "
-                "o @regulamento e a legislação vigente."
+                "O @codigo (art.º 32.º) replica quase verbatim o art.º 4.º do DL n.º 276/2001, mantendo as mesmas lacunas: não fixa prazos para "
+                "avaliações de bem-estar nem obrigações de manutenção de registos estruturados."
             ),
             "rgbeac": (
-                "O @rgbeac aproxima-se do @regulamento com prazo de 1 ano para 1.ª avaliação e manutenção de registos por 4 anos. "
-                "Porém, não especifica que a avaliação é de responsabilidade do operador (não da autoridade competente)."
+                "O @rgbeac (art.º 56.º) reforça a obrigação com 'parecer relativo à verificação das condições higiossanitárias e de bem-estar', "
+                "mas igualmente sem prazos específicos para avaliações ou duração de retenção de registos. Ambos focam-se em 'programas' interno, "
+                "não em 'visitas periódicas externas'."
             ),
             "sumario": (
-                "Alinhamento parcial com legislação vigente. Necessidade de alteração: (1) formalizar prazo de 1 ano para 1.ª visita "
-                "após notificação; (2) criar regime de avaliação de risco para determinar frequência de visitas subsequentes; "
-                "(3) estabelecer obrigação do operador de manter registos por 4 anos; (4) harmonizar terminologia ('inspeção' vs 'visita "
-                "de aconselhamento'); (5) garantir transmissão de informações entre veterinários."
+                "Lacuna estrutural em toda a legislação nacional: enquanto o @regulamento exige 'visita de um veterinário' num prazo específico "
+                "(1 ano) com manutenção de registos por 4 anos e transmissão entre veterinários, a legislação nacional concentra-se em ter um "
+                "'médico veterinário responsável' no estabelecimento. Necessidade de alteração: (1) formalizar obrigação de 'visita de avaliação' "
+                "por veterinário dentro de 1 ano após notificação; (2) exigir avaliações periódicas conforme risco; (3) obrigatória manutenção de "
+                "registos por 4 anos; (4) garantir transmissão de informações ao próximo veterinário avaliador; (5) estabelecer critérios mínimos "
+                "de avaliação (bem-estar comportamental, alojamento, saúde, etc.)."
             ),
         },
         "necessidade_alteracao": "Sim",
