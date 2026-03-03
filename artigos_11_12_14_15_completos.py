@@ -82,10 +82,19 @@ ARTICLES_11_12_14_15_COMPLETE = [
             )
         },
         "legislacao": {
-            "ref": "DL 82/2019 - Bem-estar de animais de companhia",
+            "ref": "Decreto-Lei n.º 276/2001 - Artigo 12.º",
             "texto": (
-                "DL 82/2019 regulamenta identificação de animais. Não aborda especificamente requisitos de alimentação. "
-                "Requisitos cobertos por @CODIGO (Art. 46.º) e @RGBEAC."
+                "1 — Deve existir um programa de alimentação bem definido, de valor nutritivo adequado e distribuído em quantidade suficiente "
+                "para satisfazer as necessidades alimentares das espécies e dos indivíduos de acordo com a fase de evolução fisiológica em que "
+                "se encontram, nomeadamente idade, sexo, fêmeas prenhes ou em fase de lactação.\n"
+                "2 — As refeições devem ainda ser variadas, sendo distribuídas segundo a rotina que mais se adequar à espécie e de forma a "
+                "manter, tanto quanto possível, aspetos do seu comportamento alimentar natural.\n"
+                "3 — O número, formato e distribuição de comedouros e bebedouros deve ser tal que permita aos animais satisfazerem as suas "
+                "necessidades sem que haja competição excessiva dentro do grupo.\n"
+                "4 — Os alimentos devem ser preparados e armazenados de acordo com padrões estritos de higiene, em locais secos, limpos, livres "
+                "de agentes patogénicos e de produtos tóxicos.\n"
+                "5 — Devem existir aparelhos de frio para uma eficiente conservação dos alimentos.\n"
+                "6 — Os animais devem dispor de água potável e sem qualquer restrição, salvo por razões médico-veterinárias."
             )
         },
         "divergencia": {
@@ -217,10 +226,14 @@ ARTICLES_11_12_14_15_COMPLETE = [
             )
         },
         "legislacao": {
-            "ref": "Lei 27/2016, DL 82/2019 - Legislação complementar",
+            "ref": "Decreto-Lei n.º 276/2001 - Artigos 8.º e 15.º",
             "texto": (
-                "Lei 27/2016 - Rede de centros de recolha. DL 82/2019 - Identificação. "
-                "Nenhum diploma específico complementar para condições detalhadas de alojamento técnicas (temperatura, ventilação, iluminação)."
+                "Artigo 8.º — 1 — Os animais devem dispor do espaço adequado às suas necessidades fisiológicas e etológicas, devendo o mesmo permitir: "
+                "a) A prática de exercício físico adequado; b) A fuga e refúgio de animais sujeitos a agressão por parte de outros.\n"
+                "2 — Os animais devem poder dispor de esconderijos para salvaguarda das suas necessidades de proteção, sempre que o desejarem.\n"
+                "3 — As fêmeas em período de incubação, de gestação ou com crias devem ser alojadas de forma a assegurarem a sua função reprodutiva natural em situação de bem-estar.\n"
+                "4 — As estruturas físicas das instalações, todo o equipamento nelas introduzido e a vegetação não podem representar nenhum tipo de ameaça ao bem-estar dos animais.\n"
+                "Artigo 15.º — Os alojamentos devem assegurar que as espécies animais neles mantidas não possam causar quaisquer riscos para a saúde e para a segurança de pessoas, outros animais e bens."
             )
         },
         "divergencia": {
@@ -307,14 +320,15 @@ ARTICLES_11_12_14_15_COMPLETE = [
             )
         },
         "legislacao": {
-            "ref": "Lei 27/2016, DL 82/2019 - Legislação complementar",
+            "ref": "Decreto-Lei n.º 276/2001 - Artigo 8.º",
             "texto": (
-                "Lei 27/2016 - Rede de centros de recolha (não cobre necessidades comportamentais).\n"
-                "DL 82/2019 - Identificação (não cobre necessidades comportamentais)."
+                "Artigo 8.º — 1 — Os animais devem dispor de um espaço adequado às suas necessidades fisiológicas e etológicas, devendo o mesmo permitir: "
+                "a) A prática de exercício físico adequado; b) A fuga e refúgio de animais sujeitos a agressão por parte de outros.\n"
+                "2 — Os animais devem poder dispor de esconderijos para salvaguarda das suas necessidades de proteção, sempre que o desejarem."
             )
         },
         "divergencia": {
-            "legislacao": "NÃO APLICÁVEL - Diplomas não cobrem necessidades comportamentais",
+            "legislacao": "PARCIAL - Legislação vigente oferece cobertura genérica",
             "codigo": "PARCIAL - Genérico, sem especificações sobre socialização e enriquecimento",
             "rgbeac": "SIM - COBERTURA SIGNIFICATIVAMENTE EXPANDIDA",
             "sumario": (
@@ -407,15 +421,16 @@ ARTICLES_11_12_14_15_COMPLETE = [
             )
         },
         "legislacao": {
-            "ref": "Lei 27/2016, DL 82/2019 - Legislação complementar",
+            "ref": "Decreto-Lei n.º 276/2001 - Artigo 18.º",
             "texto": (
-                "Lei 27/2016 - Recolha de animais errantes (não cobre mutilações).\n"
-                "DL 82/2019 - Identificação (não cobre mutilações).\n"
-                "Nenhum diploma específico adicional necessário."
+                "Artigo 18.º — 1 — Os detentores de animais de companhia que os apresentem com quaisquer amputações que modifiquem a aparência dos animais "
+                "ou com fins não curativos devem possuir documento comprovativo, passado pelo médico veterinário que a elas procedeu, da necessidade dessa amputação.\n"
+                "2 — O documento referido no número anterior deve ter a forma de um atestado, do qual constem a identificação do médico veterinário, "
+                "o número da cédula profissional e a sua assinatura."
             )
         },
         "divergencia": {
-            "legislacao": "NÃO APLICÁVEL - Diplomas não específicos nesta matéria",
+            "legislacao": "SIM - DL 276/2001 cobre amputações documentadas",
             "codigo": "SIM - COBERTURA COMPLETA (Arts. 51-52)",
             "rgbeac": "SIM - COBERTURA COMPLETA + EXPANSÃO",
             "sumario": (
