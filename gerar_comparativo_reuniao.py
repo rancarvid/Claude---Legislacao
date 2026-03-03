@@ -1551,22 +1551,22 @@ ARTIGOS = [
 # ---------------------------------------------------------------------------
 
 COR = {
-    "regulamento_header": "1A3A5C",   # azul escuro
-    "regulamento_body":   "D6E4F0",   # azul claro
-    "regulamento_trad":   "EBF5FB",   # azul muito claro (tradução)
-    "rgbeac_header":      "1E5631",   # verde escuro
-    "rgbeac_body":        "D5E8D4",   # verde claro
-    "codigo_header":      "7E4C00",   # castanho escuro
-    "codigo_body":        "FFE6CC",   # castanho claro
-    "legislacao_header":  "006064",   # verde-azul escuro (teal)
-    "legislacao_body":    "E0F7FA",   # verde-azul muito claro
-    "divergencia_header": "5D2A8A",   # roxo escuro
-    "divergencia_body":   "EAD7F7",   # roxo claro
-    "notas_header":       "4A4A4A",   # cinza escuro
-    "notas_body":         "F5F5F5",   # cinza muito claro
-    "tema_header":        "1A1A2E",   # quase preto
-    "alternado_a":        "FAFAFA",
-    "alternado_b":        "F0F4FF",
+    "regulamento_header": "8AAFCF",   # azul pastel médio (menos intenso)
+    "regulamento_body":   "E8F2F8",   # azul pastel muito claro
+    "regulamento_trad":   "F4F9FD",   # azul pastel extremamente claro
+    "rgbeac_header":      "7FAA8C",   # verde pastel médio (menos intenso)
+    "rgbeac_body":        "E8F3E6",   # verde pastel muito claro
+    "codigo_header":      "B8956A",   # castanho pastel médio (menos intenso)
+    "codigo_body":        "FFF5ED",   # castanho pastel muito claro
+    "legislacao_header":  "75A6AE",   # teal pastel médio (menos intenso)
+    "legislacao_body":    "F0FBFD",   # teal pastel muito claro
+    "divergencia_header": "A689C6",   # roxo pastel médio (menos intenso)
+    "divergencia_body":   "F5EEF9",   # roxo pastel muito claro
+    "notas_header":       "909090",   # cinza pastel médio (menos intenso)
+    "notas_body":         "FAFAFA",   # cinza pastel muito claro
+    "tema_header":        "6A7A8A",   # cinza-azul pastel (menos intenso)
+    "alternado_a":        "FBFBFB",
+    "alternado_b":        "F7F9FE",
 }
 
 def fill(hex_color):
