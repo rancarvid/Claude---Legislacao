@@ -8,6 +8,7 @@ Data: 2026-03-02
 import sys
 sys.path.insert(0, '/home/user/Claude---Legislacao')
 
+from artigos_11_12_14_15_completos import ARTICLES_11_12_14_15_COMPLETE
 from artigos_15a_17a_20_completos import ARTICLES_15a_17a_20
 from artigos_20a_21_22_completos import ARTICLES_20A_21_22
 import gerar_comparativo_reuniao as gen
@@ -15,11 +16,14 @@ import gerar_word
 
 def main():
     print("\n" + "="*80)
-    print("INTEGRAÇÃO: Artigos 15a, 17a-20 + 20a, 21, 22 (Sequência 5-22 completa)")
+    print("INTEGRAÇÃO: Artigos 11-15 + 15a, 17a-20 + 20a, 21, 22 (Sequência 5-22 completa)")
     print("="*80)
 
     # Adiciona os novos artigos à lista em memória
-    print("\n✓ Carregando artigos 15a, 17a-20...")
+    print("\n✓ Carregando artigos 11, 12, 14, 15...")
+    gen.ARTIGOS.extend(ARTICLES_11_12_14_15_COMPLETE)
+
+    print("✓ Carregando artigos 15a, 17a-20...")
     gen.ARTIGOS.extend(ARTICLES_15a_17a_20)
 
     print("✓ Carregando artigos 20a, 21, 22...")
@@ -86,7 +90,7 @@ def main():
     print("RESUMO DA INTEGRAÇÃO")
     print("="*80)
 
-    artigos_adicionados = [art['id'] for art in ARTICLES_15a_17a_20] + [art['id'] for art in ARTICLES_20A_21_22]
+    artigos_adicionados = [art['id'] for art in ARTICLES_11_12_14_15_COMPLETE] + [art['id'] for art in ARTICLES_15a_17a_20] + [art['id'] for art in ARTICLES_20A_21_22]
     print(f"\nArtigos adicionados: {', '.join(artigos_adicionados)}")
     print(f"Total: {len(artigos_adicionados)} artigos novos integrados")
 
@@ -104,8 +108,9 @@ def main():
     print("  - Sequência completa 5-22 agora disponível nos outputs")
     print(f"  - Data da integração: 2026-03-02")
     print("\n  Status das correspondências portuguesas:")
-    print("  - ART-20a, 21, 22: Correspondências COMPLETAS ✓")
+    print("  - ART-11, 12, 14, 15: Correspondências COMPLETAS ✓")
     print("  - ART-15a, 17a-20: Textos do @regulamento ✓, correspondências EM ATUALIZAÇÃO")
+    print("  - ART-20a, 21, 22: Correspondências COMPLETAS ✓")
     print("\n" + "="*80 + "\n")
 
 if __name__ == '__main__':
