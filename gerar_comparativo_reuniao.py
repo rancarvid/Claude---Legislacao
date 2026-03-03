@@ -2449,7 +2449,7 @@ def criar_html(path, artigos):
     --div-bg: #F9F6FD;
     --nota:   #909090;
     --nota-bg:#FAFAFA;
-    --dark:   #6A7A8A;
+    --dark:   #2C3E50;
   }}
   * {{ box-sizing: border-box; margin: 0; padding: 0; }}
   body {{ font-family: 'Segoe UI', Calibri, sans-serif; background: #F8F9FB; color: #333; }}
