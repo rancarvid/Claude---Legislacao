@@ -3042,44 +3042,74 @@ ARTIGOS = [
             )
         },
         "rgbeac": {
-            "ref": "Arts. [a procurar] do RGBEAC (proposta, jun. 2025)",
+            "ref": "Capítulo II — Sistema de Informação de Animais de Companhia (SIAC) do RGBEAC (proposta, jun. 2025)",
             "texto": (
-                "[Procura em curso — aguardando resultado de análise de legislação nacional sobre requisitos técnicos de microchip, transponder, ISO standards, registo em base de dados]"
+                "O RGBEAC prevê a Lista Nacional de Animais de Companhia como instrumento de proteção, integrando o Sistema de Informação de Animais de Companhia (SIAC), "
+                "anteriormente previsto no DL n.º 82/2019, de 27 de junho. O registo passa a ser obrigatório para TODOS os animais de companhia como medida de valorização, "
+                "prevenção do abandono e melhoria do acompanhamento e proteção. "
+                "[Detalhe técnico sobre ISO standards pendente de análise do texto completo do Capítulo II do RGBEAC]"
             )
         },
         "codigo": {
-            "ref": "Arts. [a procurar] do Código do Animal (DL 214/2013)",
+            "ref": "Arts. 53.º a 59.º do Código do Animal (DL 214/2013)",
             "texto": (
-                "[Procura em curso — aguardando resultado de análise sobre identificação eletrónica, microchip, registo em base de dados, requisitos técnicos]"
+                "Artigo 53.º — Identificação e registo na base de dados\n"
+                "1 - Todos os cães devem ser identificados e registados, entre os três e os seis meses de idade.\n"
+                "4 - Os cães e gatos são identificados através de método electrónico e registados na base de dados nacional.\n"
+                "5 - A identificação electrónica é efetuada através da aplicação subcutânea de um microchip no centro da face lateral esquerda do pescoço.\n"
+                "6 - Para efeito de registo na base de dados, só podem ser aplicados os microchips que estejam em conformidade com as normas ISO 11784.\n"
+                "7 - A aplicação do microchip apenas pode ser efetuada por médico veterinário, enfermeiro ou outro técnico habilitado.\n\n"
+                "Artigo 55.º — Base de dados\n"
+                "1 - Toda a informação resultante do registo do animal é coligida numa aplicação informática nacional.\n"
+                "2 - A DGAV detém, define e coordena o acesso à base de dados."
             )
         },
         "legislacao": {
-            "ref": "Arts. [a procurar] do DL n.º 276-2001",
+            "ref": "DL n.º 276-2001",
             "texto": (
-                "[Procura em curso — aguardando resultado de análise sobre identificação, microchip, base de dados nacional, requisitos técnicos ISO]"
+                "[DL 276/2001 — REVOGADO PELO CÓDIGO DO ANIMAL (DL 214/2013)]\n\n"
+                "Nota: DL 276/2001 não contém artigos operacionais específicos sobre identificação eletrónica, microchip ou registo em base de dados. "
+                "O regime de identificação e registo foi consolidado integralmente no Código do Animal (DL 214/2013, Arts. 53-59)."
             )
         },
         "divergencia": {
             "legislacao": (
-                "[A ser preenchido com resultado de procura]"
+                "REVOGAÇÃO TOTAL\n"
+                "DL 276/2001 foi revogado pelo Código do Animal (DL 214/2013). Sem disposições sobre ISO standards ou requisitos técnicos de microchip."
             ),
             "codigo": (
-                "[A ser preenchido com resultado de procura]"
+                "CONVERGÊNCIA SIGNIFICATIVA\n"
+                "✅ Código exige conformidade ISO 11784 (Art. 53.6)\n"
+                "✅ Identificação eletrónica por microchip (Art. 53.5)\n"
+                "✅ Registo em base de dados nacional (Arts. 55-59)\n"
+                "⚠️ Código refere ISO 11784; Regulamento exige ISO 11784/11785 + 24631-1 (mais restritivo)\n"
+                "⚠️ Prazos diferentes: Código 3-6 meses; Regulamento 3 meses (proprietários), 30 dias (operadores)"
             ),
             "rgbeac": (
-                "[A ser preenchido com resultado de procura]"
+                "CONVERGÊNCIA PARCIAL\n"
+                "✅ Integra Sistema de Informação de Animais de Companhia (SIAC) — mais robusto que Código\n"
+                "✅ Registo obrigatório para TODOS os animais de companhia (não apenas cães e gatos comerciais)\n"
+                "⚠️ CRÍTICO: Requisitos técnicos ISO standards NÃO MENCIONADOS explicitamente no resumo disponível\n"
+                "⚠️ Prazos: A confirmar em texto completo do Capítulo II"
             ),
             "sumario": (
-                "ANNEX II (Identification and Registration) estabelece requisitos técnicos de transponders/microchips: número individual não-repetível, "
-                "conformidade ISO 3166 (país), ISO 11784/11785 (radiofrequência), ISO 24631-1 (avaliação). "
-                "[Análise completa após procura na legislação nacional]"
+                "ANNEX II (Identification and Registration) estabelece quatro requisitos técnicos de transponders: "
+                "(i) número individual não-repetível; (ii) ISO 3166 (país); (iii) ISO 11784/11785 (radiofrequência); "
+                "(iv) ISO 24631-1 (avaliação). "
+                "Código do Animal implementa ISO 11784 mas não ISO 11785 ou 24631-1 (menos restritivo). "
+                "@RGBEAC promove SIAC (mais robusto) mas não especifica ISO standards. "
+                "Recomenda-se: validar conformidade portuguesa com ISO 11785 e 24631-1 (inovações do Regulamento)."
             )
         },
-        "necessidade_alteracao": "[A confirmar após análise completa]",
+        "necessidade_alteracao": "Sim - Clarificação técnica (ISO 11785, 24631-1) + harmonização prazos",
         "notas": (
-            "ANNEX II especifica requisitos TÉCNICOS de transponders usados para identificação de cães e gatos (Articles 17, 21). "
-            "IMPORTANTE: Este ANNEX é sobre ESPECIFICAÇÕES TÉCNICAS (ISO standards), não sobre procedimentos administrativos de registo. "
-            "[Procura em curso para verificar conformidade legislação portuguesa com ISO 11784, 11785, 24631-1]"
+            "ANNEX II especifica requisitos TÉCNICOS de transponders/microchips (não procedimentos administrativos). "
+            "IMPORTANTE DIVERGÊNCIA: Código do Animal exige ISO 11784; Regulamento exige ISO 11784/11785 + 24631-1. "
+            "ISO 11785: estabelece padrão de radiofrequência para microchips. ISO 24631-1: metodologia de avaliação de conformidade. "
+            "Ambas são NOVIDADES do Regulamento não presentes na legislação portuguesa anterior. "
+            "@RGBEAC menciona SIAC (Sistema de Informação) mas não detalha requisitos técnicos ISO. "
+            "Recomenda-se: (i) validar conformidade microchips portugueses com ISO 11785 e 24631-1; "
+            "(ii) atualizar requisitos de aprovação/certificação de equipamentos; (iii) harmonizar prazos de identificação (3 meses vs. 30 dias por tipo operador)."
         )
     }
 ]
