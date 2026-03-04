@@ -57,6 +57,40 @@ Scripts e outputs produzidos no âmbito do projeto. Não são documentos legisla
 
 A legislação relevante que não conste do repositório deve ser consultada online na sua versão mais atual (e.g., via [dre.pt](https://dre.pt) ou [EUR-Lex](https://eur-lex.europa.eu)).
 
+### 2.4 PROTOCOLO DE CONSULTA DE LEGISLAÇÃO (CRÍTICO)
+
+**ORDEM DE PRIORIDADE OBRIGATÓRIA** para análise de legislação:
+
+#### PASSO 1: LEGISLAÇÃO VIGENTE CONSOLIDADA (ONLINE) — PRIORIDADE MÁXIMA
+1. **Sempre consultar PRIMEIRO a legislação vigente consolidada** via [dre.pt](https://dre.pt) (Portugal) ou [EUR-Lex](https://eur-lex.europa.eu) (Europa)
+2. Usar **WebFetch** ou **WebSearch** para obter versão consolidada + atualizações recentes
+3. **Exemplo crítico**: Ao analisar identificação de cães/gatos, procurar PRIMEIRO DL 82/2019 consolidado (não DL 276/2001)
+4. **Regra**: Se legislação não está no repositório, procurar online ANTES de usar ficheiros locais
+
+#### PASSO 2: VALIDAÇÃO COM FICHEIROS @LEGISLACAO DO REPOSITÓRIO
+1. Comparar resultado online com ficheiros `@legislacao` do repositório (confirmar concordância)
+2. Usar ficheiros repositório como **segunda validação**, não como fonte primária
+3. **NUNCA confundir**: DL 276/2001 (vigente) com @codigo (proposta)
+
+#### PASSO 3: ANÁLISE DE PROPOSTAS (@CODIGO, @RGBEAC)
+1. **APENAS DEPOIS** de analisar legislação vigente, comparar com propostas
+2. **REGRA CRÍTICA**: `@codigo` e `@rgbeac` são PROPOSTAS, NÃO LEGISLAÇÃO VIGENTE
+3. Na análise, indicar claramente: "Proposta @rgbeac" ≠ "Legislação vigente"
+
+#### REGRA DE DISTINÇÃO ABSOLUTA
+| Categoria | Status | Como Tratar |
+|-----------|--------|------------|
+| **@legislacao** | ✅ VIGENTE | Consultar online consolidado; citar como "legislação vigente" |
+| **@codigo** | ❌ PROPOSTA | Citar como "proposta de consolidação"; NUNCA como legislação vigente |
+| **@rgbeac** | ❌ PROPOSTA | Citar como "proposta (jun. 2025)"; NUNCA como legislação vigente |
+| **@regulamento** | ✅ VIGENTE | Legislação europeia; aplicação direta; citar verbatim EN + tradução PT |
+
+#### ERROS A EVITAR
+- ❌ Tratar @codigo (proposta) como legislação que "revoga" DL 276/2001
+- ❌ Omitir legislação vigente (ex: DL 82/2019) que não está no repositório
+- ❌ Usar ficheiros repositório como única fonte de legislação
+- ❌ Não distinguir claramente entre "vigente" e "proposta" na análise
+
 ---
 
 ## 3. Estrutura das Categorias Documentais
@@ -250,11 +284,22 @@ git push -u origin claude/claude-md-mm6om6hd0ro2q4cd-HlaxD
 
 ## 10. Instruções para Assistentes de IA
 
-### 10.1 Antes de qualquer análise
+### 10.1 Antes de qualquer análise — PROTOCOLO OBRIGATÓRIO
 
-1. Verificar quais ficheiros estão presentes no repositório.
-2. Identificar o código interno correto (`@codigo`, `@rgbeac`, `@regulamento`, `@legislacao`, `@oexcel`).
-3. Para legislação em falta, consultar online na versão mais atual.
+1. **PRIMEIRO**: Aplicar **PROTOCOLO DE CONSULTA DE LEGISLAÇÃO** (secção 2.4)
+   - Consultar ONLINE legislação vigente consolidada ([dre.pt](https://dre.pt), [EUR-Lex](https://eur-lex.europa.eu))
+   - Usar WebFetch/WebSearch para legislação consolidada
+   - **NUNCA usar @codigo ou @rgbeac como fonte primária de legislação vigente**
+
+2. **SEGUNDO**: Verificar ficheiros do repositório
+   - Verificar quais ficheiros estão presentes
+   - Usar como VALIDAÇÃO (não como fonte primária)
+   - Identificar o código interno correto (`@codigo`, `@rgbeac`, `@regulamento`, `@legislacao`, `@oexcel`)
+
+3. **TERCEIRO**: Para propostas (@codigo, @rgbeac)
+   - Comparar com legislação vigente
+   - Indicar claramente se são "propostas" ou "legislação vigente"
+   - **NUNCA confundir** DL 276/2001 (vigente) com @codigo (proposta)
 
 ### 10.2 Ao produzir análises
 
