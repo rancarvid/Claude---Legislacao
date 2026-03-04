@@ -3065,11 +3065,12 @@ ARTIGOS = [
             )
         },
         "legislacao": {
-            "ref": "DL n.º 276-2001",
+            "ref": "DL n.º 82/2019, de 27 de junho (LEGISLAÇÃO VIGENTE) + DL n.º 276-2001",
             "texto": (
-                "[DL 276/2001 — REVOGADO PELO CÓDIGO DO ANIMAL (DL 214/2013)]\n\n"
-                "Nota: DL 276/2001 não contém artigos operacionais específicos sobre identificação eletrónica, microchip ou registo em base de dados. "
-                "O regime de identificação e registo foi consolidado integralmente no Código do Animal (DL 214/2013, Arts. 53-59)."
+                "[DL n.º 82/2019, de 27 de junho — LEGISLAÇÃO VIGENTE RELEVANTE]\n\n"
+                "Este diploma contém o regime atual de identificação e registo de animais de companhia, incluindo Sistema de Informação de Animais de Companhia (SIAC). "
+                "REMETE PARA: Análise detalhada online de DL 82/2019 consolidado (dre.pt ou eur-lex) — CRÍTICO para comparação com ANNEX II do Regulamento.\n\n"
+                "[DL 276/2001 — legislação anterior, sem disposições operacionais específicas sobre identificação eletrónica]"
             )
         },
         "divergencia": {
