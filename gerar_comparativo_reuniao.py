@@ -2943,7 +2943,9 @@ ARTIGOS = [
                 "4 — As instalações devem providenciar um enriquecimento ambiental complexo e estimulante [...] incluindo [...] "
                 "postes de arranhadura [a confirmar], esconderijos, prateleiras, [...] brinquedos e outros adequados ao fim em vista.\n\n"
                 "SUBSECÇÃO 4.3 (SEPARAÇÃO):\n"
-                "Artigo 68.º — Transação de cães e gatos\n[Procura necessária para obter texto verbatim sobre idade mínima de separação]"
+                "Artigo 70.º — Reprodução de cães e gatos\n\n"
+                "5 — As crias não podem ser separadas da progenitora antes da décima semana de idade, no caso dos cães, "
+                "e antes da décima segunda semana de idade, no caso dos gatos, salvaguardado um período de desmame gradual."
             )
         },
         "codigo": {
@@ -2958,7 +2960,11 @@ ARTIGOS = [
                 "Artigo 18.º(6) — Instalações\n\n"
                 "6 — Os alojamentos devem possuir estruturas e objetos [...] nomeadamente prateleiras, poleiros, ninhos, esconderijos e material para entretenimento.\n\n"
                 "SUBSECÇÃO 4.3 (SEPARAÇÃO):\n"
-                "[Procura necessária para obter artigos sobre idade mínima de separação]"
+                "Artigo 23.º — Condições particulares para a manutenção de cães e gatos\n\n"
+                "2 — Os cães e gatos só podem ser expostos nos locais de venda a partir da oitava semana de idade e devem encontrar-se identificados "
+                "eletronicamente em nome do criador.\n\n"
+                "Artigo 82.º — Venda em feiras e mercados\n\n"
+                "2 — [...] devendo os animais: [...] Ter idade superior a oito semanas."
             )
         },
         "legislacao": {
@@ -2971,45 +2977,47 @@ ARTIGOS = [
                 "5 — As instalações devem ser equipadas [...] com materiais e equipamento que estimulem a expressão do repertório de comportamentos naturais, "
                 "nomeadamente [...] ramos, buracos, locais para banhos e outros quaisquer adequados ao fim em vista.\n\n"
                 "SUBSECÇÃO 4.3 (SEPARAÇÃO):\n"
-                "[Procura necessária para obter artigos sobre idade mínima de separação]"
+                "[DL 276/2001 não contém disposições específicas sobre idade mínima de separação de mãe ou exposição em locais de venda]"
             )
         },
         "divergencia": {
             "legislacao": (
                 "4.1 SOCIALIZAÇÃO: DIVERGÊNCIA TOTAL — DL 276/2001 omisso completamente\n"
                 "4.2 ENRIQUECIMENTO: PARCIAL — cobre genérico (substrato, ninhos, buracos) mas omite 'postes de arranhadura' (crítico para gatos)\n"
-                "4.3 SEPARAÇÃO: [Procura necessária]"
+                "4.3 SEPARAÇÃO: DIVERGÊNCIA TOTAL — DL 276/2001 omisso; Regulamento exige mínimo 8-12 semanas, DL não especifica"
             ),
             "codigo": (
                 "4.1 SOCIALIZAÇÃO: DIVERGÊNCIA SIGNIFICATIVA — Código menciona contato social mas sem detalhe (idade, frequência, documentação)\n"
                 "4.2 ENRIQUECIMENTO: PARCIAL — menciona prateleiras/poleiros mas omite 'postes de arranhadura' (essencial para gatos)\n"
-                "4.3 SEPARAÇÃO: [Procura necessária]"
+                "4.3 SEPARAÇÃO: DIVERGÊNCIA SIGNIFICATIVA — Código exige 8 semanas (Arts. 23.º, 82.º) para EXPOSIÇÃO em venda; "
+                "Regulamento exige 8 semanas (puppies, kittens abrigos) e 12 semanas (kittens breeding) para SEPARAÇÃO de mãe — conceitos distintos"
             ),
             "rgbeac": (
                 "4.1 SOCIALIZAÇÃO: CONVERGÊNCIA PARCIAL — exige 'plano de socialização' (Art. 52.7) mas sem especificação de: "
                 "idade 3 semanas, frequência diária, tipos de contato, separação de animais agressivos\n"
                 "4.2 ENRIQUECIMENTO: CONVERGÊNCIA SIGNIFICATIVA — menciona enriquecimento 'complexo', inclui 'brinquedos', "
                 "mas omite 'postes de arranhadura' (essencial para gatos)\n"
-                "4.3 SEPARAÇÃO: [Procura necessária em Art. 68.º e relacionados]"
+                "4.3 SEPARAÇÃO: CONVERGÊNCIA SIGNIFICATIVA — @RGBEAC (Art. 70.5) exige 10 semanas (cães) / 12 semanas (gatos) com desmame gradual "
+                "(MAIS RESTRITIVO que Regulamento 8-12 semanas)"
             ),
             "sumario": (
                 "ANNEX I, Ponto 4 (Behavioural Needs) tem três subsecções: "
-                "(i) 4.1 Socialização — contato social diário desde 3 semanas; "
-                "(ii) 4.2 Enriquecimento — postes de arranhadura, abrigos, prateleiras (específico para gatos); "
-                "(iii) 4.3 Separação — idades mínimas (8 semanas puppies, 8/12 semanas kittens). "
-                "Legislação nacional é omissa (4.1), parcial (4.2), incompleta (4.3). "
-                "@RGBEAC aproxima-se mas com gaps críticos (socialização sem detalhe; falta postes de arranhadura para gatos; separação a confirmar)."
+                "(i) 4.1 Socialização — contato social diário desde 3 semanas (NOVO); "
+                "(ii) 4.2 Enriquecimento — postes de arranhadura, abrigos, prateleiras para gatos (PARCIAL na legislação); "
+                "(iii) 4.3 Separação — 8 semanas (puppies, kittens abrigos), 12 semanas (kittens breeding). "
+                "DL 276/2001 é omisso em 4.1 e 4.3, parcial em 4.2. Código implementa 8 semanas para exposição (4.3) mas não separação maternal. "
+                "@RGBEAC é mais restritivo (10-12 semanas separação) e cobre 4.1 (plano) e 4.2 (enriquecimento) com gaps específicos."
             )
         },
-        "necessidade_alteracao": "Sim - Harmonização parcial + procura de legislação em 4.3",
+        "necessidade_alteracao": "Sim - Harmonização fundamental (4.1) + clarificação (4.2 postes arranhadura) + ajuste (4.3 separação vs. exposição)",
         "notas": (
-            "ANNEX I, Ponto 4 contém 3 subsecções de bem-estar comportamental. "
-            "4.1 SOCIALIZAÇÃO: COMPLETAMENTE NOVO — @RGBEAC menciona 'plano' (Art. 52.7) mas sem detalhe do Regulamento. "
-            "Recomenda-se adicionar: (i) idade mínima 3 semanas; (ii) frequência mínima (diária); (iii) tipos de contato (congêneres, humanos, outras espécies); "
-            "(iv) documentação com registos; (v) disposição sobre separação por agressividade. "
-            "4.2 ENRIQUECIMENTO: CRÍTICO — @RGBEAC omite 'postes de arranhadura' (elemento essencial para bem-estar felino). "
-            "Recomenda-se adicionar explicitamente: 'número suficiente de postes de arranhadura'. "
-            "4.3 SEPARAÇÃO: Procura necessária em DL 276/2001, Código do Animal, @RGBEAC para verificar se há artigos sobre idade mínima de venda/transação."
+            "ANNEX I, Ponto 4 contém 3 subsecções críticas de bem-estar comportamental. "
+            "4.1 SOCIALIZAÇÃO: COMPLETAMENTE NOVO — DL 276/2001 omisso. @RGBEAC menciona 'plano' (Art. 52.7) mas sem detalhe do Regulamento "
+            "(3 semanas, frequência diária, tipos contato, documentação). IMPLEMENTAR: idade, frequência, contatos, registos, separação agressivos. "
+            "4.2 ENRIQUECIMENTO: CRÍTICO PARA GATOS — DL 276/2001 genérico, omite 'postes de arranhadura'. Código do Animal menciona 'prateleiras, poleiros' "
+            "mas não especifica 'postes de arranhadura'. @RGBEAC omite completamente. IMPLEMENTAR: 'número suficiente de postes de arranhadura' (essencial bem-estar felino). "
+            "4.3 SEPARAÇÃO: DIVERGÊNCIA CONCEITUAL — Regulamento estabelece idade separação de MÃE (8-12 semanas); Código do Animal refere EXPOSIÇÃO em venda (8 semanas); "
+            "@RGBEAC mais restritivo (10-12 semanas separação com desmame gradual). CLARIFICAR: 4.3 refere separação maternal, não comercialização."
         )
     }
 ]
