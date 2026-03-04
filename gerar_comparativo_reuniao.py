@@ -24,27 +24,25 @@ ARTIGOS = [
             "ref": "Art.º 4.º do Regulamento 2023/0447",
             "titulo": "Exemptions from the obligations set out in this Chapter",
             "texto": (
-                "A breeding establishment where at most two litters per calendar year is produced for placing on the "
-                "market shall only be subject to the obligations laid down in Article 5, Article 6(1) (1b), (1c) and (1d). "
-                "Article 6a, Article 7, Article 8, Article 11(2), (3) and (3a), Article 12(3), (4) and (7), "
-                "Article 13(2)(b), (c) and (d), Article 14(2), (3), (4) and (5a), Article 15, Article 15a(1) and point 3 "
-                "and 4.3 of Annex I.\n\n"
-                "A shelter, where up to a total of 15 dogs or cats are kept at any given time, or any foster home shall only "
-                "be subject to the obligations laid down in Article 5, Article 6(1), (1a), (1b), (1c), and 1(d), Article 7, "
+                "1 — A breeding establishment where at most two litters per calendar year is produced for placing on the market "
+                "shall only be subject to the obligations laid down in Article 5, Article 6(1) (1b), (1c) and (1d), Article 6a, "
+                "Article 7, Article 8, Article 11(2), (3) and (3a), Article 12(3), (4) and (7), Article 13(2)(b), (c) and (d), "
+                "Article 14(2), (3), (4) and (5a), Article 15, Article 15a(1) and point 3 and 4.3 of Annex I.\n\n"
+                "2 — A shelter, where up to a total of 15 dogs or cats are kept at any given time, or any foster home shall only "
+                "be subject to the obligations laid down in Article 5, Article 6(1), (1a), (1b), (1c), and (1d), Article 7, "
                 "Article 8, Article 11(2), (3) and (3a), Article 12(3), (4) and (7), Article 13(2)(a), (b), (c) and (d), "
                 "Article 14(2), (3), (4) and (5a), Article 15 and point 4.3 of Annex I."
             ),
             "traducao": (
-                "Um estabelecimento de criação que produz no máximo duas ninhadas por ano civil para colocação no mercado "
-                "fica sujeito apenas às obrigações estabelecidas no artigo 5.º, artigo 6.º (parágrafos 1, 1b, 1c e 1d), "
-                "artigo 6a, artigo 7.º, artigo 8.º, artigo 11.º (parágrafos 2, 3 e 3a), artigo 12.º (parágrafos 3, 4 e 7), "
-                "artigo 13.º (parágrafo 2, alíneas b, c e d), artigo 14.º (parágrafos 2, 3, 4 e 5a), artigo 15.º, "
-                "artigo 15a (parágrafo 1) e ponto 3 e 4.3 do Anexo I.\n\n"
-                "Um abrigo, onde são mantidos no máximo 15 cães ou gatos em qualquer momento, ou qualquer lar de acolhimento "
-                "fica sujeito apenas às obrigações estabelecidas no artigo 5.º, artigo 6.º (parágrafos 1, 1a, 1b, 1c e 1d), "
-                "artigo 7.º, artigo 8.º, artigo 11.º (parágrafos 2, 3 e 3a), artigo 12.º (parágrafos 3, 4 e 7), "
-                "artigo 13.º (parágrafo 2, alíneas a, b, c e d), artigo 14.º (parágrafos 2, 3, 4 e 5a), artigo 15.º "
-                "e ponto 4.3 do Anexo I."
+                "1 — Um estabelecimento de criação que produz no máximo duas ninhadas por ano civil para colocação no mercado "
+                "fica sujeito apenas às obrigações estabelecidas no artigo 5.º, artigo 6.º (n.º 1, alíneas 1b, 1c e 1d), "
+                "artigo 6a, artigo 7.º, artigo 8.º, artigo 11.º (n.ºs 2, 3 e 3a), artigo 12.º (n.ºs 3, 4 e 7), "
+                "artigo 13.º (n.º 2, alíneas b, c e d), artigo 14.º (n.ºs 2, 3, 4 e 5a), artigo 15.º, artigo 15a (n.º 1) "
+                "e ponto 3 e 4.3 do Anexo I.\n\n"
+                "2 — Um abrigo, onde são mantidos no máximo 15 cães ou gatos em qualquer momento, ou qualquer lar de acolhimento "
+                "fica sujeito apenas às obrigações estabelecidas no artigo 5.º, artigo 6.º (n.ºs 1, 1a, 1b, 1c e 1d), artigo 7.º, "
+                "artigo 8.º, artigo 11.º (n.ºs 2, 3 e 3a), artigo 12.º (n.ºs 3, 4 e 7), artigo 13.º (n.º 2, alíneas a, b, c e d), "
+                "artigo 14.º (n.ºs 2, 3, 4 e 5a), artigo 15.º e ponto 4.3 do Anexo I."
             ),
         },
         "rgbeac": {
