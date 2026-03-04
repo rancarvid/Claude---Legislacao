@@ -2892,6 +2892,128 @@ ARTIGOS = [
             "(v) exigir avaliação veterinária escrita para cadelas ≥8 anos e gatas ≥6 anos. "
             "Estas alterações são críticas para garantir a conformidade com o Regulamento."
         )
+    },
+    {
+        "id": "ANNEX-I-NUMERO-4",
+        "tema": "Requisitos Técnicos — Necessidades Comportamentais (Behavioral Needs)",
+        "regulamento": {
+            "ref": "ANEXO I, Ponto 4 do Regulamento 2023/0447",
+            "titulo": "Behavioural needs",
+            "texto": (
+                "4. Behavioural needs\n\n"
+                "4.1 Operators shall ensure that measures are taken to meet the behavioural needs of dogs or cats in accordance with point 4 of Annex I.\n\n"
+                "4.2 Operators shall not keep dogs or cats in areas restraining their natural movements, except for specific procedures or treatments: "
+                "physical examinations; individual identification; collection of samples and vaccinations; grooming/hygienic/health/reproductive procedures; "
+                "medical and surgical treatment or rehabilitation.\n\n"
+                "4.3 Tethering for more than 1 hour shall be prohibited, except for medical treatment or participation in shows, exhibitions and competitions.\n\n"
+                "4.4 Operators shall ensure that conditions are in place to allow dogs or cats to express social non-harmful behaviours, species-specific behaviours "
+                "and the possibility to experience positive emotions.\n\n"
+                "4.5 Operators shall ensure that dogs or cats can socialise in accordance with point 4 of Annex I. Operators of breeding establishments shall document "
+                "their strategy for such socialisation.\n\n"
+                "4.6 Operators shall ensure that enrichment is provided and accessible to all dogs or cats, creating a stimulating environment, enabling "
+                "species-specific behaviour and reducing their frustration."
+            ),
+            "traducao": (
+                "4. Necessidades Comportamentais\n\n"
+                "4.1 Os operadores devem assegurar que são implementadas medidas para atender as necessidades comportamentais dos cães e gatos.\n\n"
+                "4.2 Os operadores não devem manter cães ou gatos em áreas que restringem os seus movimentos naturais, exceto para procedimentos específicos "
+                "ou tratamentos: exames físicos; identificação individual; colheita de amostras e vacinações; procedimentos de higiene/saúde/reprodução; "
+                "tratamento médico, cirúrgico ou reabilitação.\n\n"
+                "4.3 A amarração por mais de 1 hora é proibida, exceto durante tratamento médico ou participação em espetáculos, exposições e competições.\n\n"
+                "4.4 Os operadores devem assegurar que existem condições que permitem aos cães ou gatos expressar comportamentos sociais não prejudiciais, "
+                "comportamentos específicos da espécie e a possibilidade de experimentar emoções positivas.\n\n"
+                "4.5 Os operadores devem assegurar que os cães ou gatos podem socializar. Os operadores de estabelecimentos de criação devem documentar "
+                "a sua estratégia de socialização.\n\n"
+                "4.6 Os operadores devem assegurar que enriquecimento é fornecido e acessível a todos os cães ou gatos, criando um ambiente estimulante, "
+                "permitindo comportamento específico da espécie e reduzindo frustração."
+            )
+        },
+        "rgbeac": {
+            "ref": "Arts. 10.º, 12.º, 47.º, 52.º do RGBEAC (proposta, jun. 2025)",
+            "texto": (
+                "Artigo 10.º — Obrigações especiais dos detentores\n\n"
+                "1.a) Assegurar o bem-estar: [...] atenção, supervisão, controlo, exercício físico e estímulo mental; liberdade de movimento, sendo proibidos "
+                "todos os sistemas de contenção permanentes [...]; contato social adequado.\n\n"
+                "Artigo 12.º — Proibições gerais\n\n"
+                "f) Acorrentá-los ou mantê-los em espaços confinados que não garantam bem-estar; permitido temporariamente com trela à porta [...] sob supervisão.\n\n"
+                "h) Mantê-los predominantemente isolados de humanos ou outros animais.\n\n"
+                "y) Utilizar coleiras elétricas, choques, estranguladoras ou outros métodos aversivos/punitivos.\n\n"
+                "Artigo 47.º — Condições dos alojamentos\n\n"
+                "4 — Enriquecimento ambiental complexo incluindo materiais, substrato, ninhos, buracos, banhos, brinquedos.\n\n"
+                "6 — Acesso diário a exercício: mínimo 2 vezes/dia, 30 minutos.\n\n"
+                "Artigo 52.º — Maneio\n\n"
+                "7 — Plano de socialização e enriquecimento ambiental obrigatório (alojamentos cães/gatos)."
+            )
+        },
+        "codigo": {
+            "ref": "Arts. 13.º, 18.º do Código do Animal (DL 214/2013)",
+            "texto": (
+                "Artigo 13.º — Condições dos alojamentos\n\n"
+                "1 — Espaço adequado permitindo: a) exercício físico adequado; b) fuga e refúgio.\n\n"
+                "2 — Esconderijos para proteção.\n\n"
+                "5 — Materiais e equipamento estimulando comportamentos naturais: substrato, cama, ninhos, ramos, buracos, banhos, outros.\n\n"
+                "Artigo 18.º — Instalações\n\n"
+                "6 — Estruturas e objetos para enriquecimento: prateleiras, poleiros, ninhos, esconderijos, material para entretenimento, "
+                "área de recreio coberta ou descoberta (cães/gatos)."
+            )
+        },
+        "legislacao": {
+            "ref": "Art.º 8.º do DL n.º 276-2001",
+            "texto": (
+                "Artigo 8.º — Condições dos alojamentos\n\n"
+                "1 — Espaço adequado permitindo: a) exercício físico adequado; b) fuga e refúgio.\n\n"
+                "2 — Esconderijos para proteção.\n\n"
+                "5 — Instalações equipadas com materiais e equipamento estimulando comportamentos naturais: "
+                "substrato, cama, ninhos, ramos, buracos, banhos, outros.\n\n"
+                "[Nota: Disposições genéricas sobre bem-estar. OMISSO: amarração, isolamento, métodos aversivos, "
+                "plano de socialização, duração mínima de exercício, estímulo mental, emoções positivas]"
+            )
+        },
+        "divergencia": {
+            "legislacao": (
+                "PARCIAL CONVERGÊNCIA\n"
+                "DL 276/2001 cobre: espaço, exercício físico, enriquecimento ambiental básico.\n"
+                "FALTAM: (i) restrição amarração >1 hora; (ii) proibição isolamento; (iii) proibição métodos aversivos "
+                "(coleiras elétricas); (iv) duração mínima exercício diário; (v) plano socialização documentado; "
+                "(vi) estímulo mental explícito; (vii) emoções positivas."
+            ),
+            "codigo": (
+                "PARCIAL CONVERGÊNCIA\n"
+                "Código do Animal: equivalente ao DL 276/2001, com enriquecimento mais específico (área de recreio dedicada).\n"
+                "FALTAM: (i) amarração; (ii) isolamento; (iii) métodos aversivos; (iv) duração mínima; "
+                "(v) plano socialização; (vi) estímulo mental; (vii) emoções positivas."
+            ),
+            "rgbeac": (
+                "CONVERGÊNCIA SIGNIFICATIVA\n"
+                "✅ Proíbe acorrentamento permanente (com amarração temporária supervisionada permitida)\n"
+                "✅ Proíbe isolamento (Art. 12.h)\n"
+                "✅ Proíbe coleiras elétricas e métodos aversivos (Art. 12.y)\n"
+                "✅ Menciona 'exercício físico e estímulo mental' (Art. 10.a)\n"
+                "✅ Plano de socialização documentado obrigatório (Art. 52.7)\n"
+                "✅ Enriquecimento com 'brinquedos' incluso (Art. 47.4)\n"
+                "✅ Acesso diário a exercício: 2x dia, 30 min (Art. 47.6)\n"
+                "⚠️ Conceito 'emoções positivas' não explícito (apenas em Regulamento)"
+            ),
+            "sumario": (
+                "ANNEX I, Ponto 4 (Behavioral Needs) estabelece: (i) liberdade movimento (exceto procedimentos); (ii) amarração <1 hora; "
+                "(iii) comportamentos sociais/específicos; (iv) socialização documentada (breeding); (v) enriquecimento acessível; "
+                "(vi) estímulo reduzindo frustração; (vii) emoções positivas. "
+                "@RGBEAC implementa 6 de 7 requisitos. DL 276/2001 é genérico. "
+                "Recomenda-se validar implementação rigorosa do RGBEAC (sobretudo plano socialização, duração exercício, métodos aversivos) "
+                "e considerar adicionar conceito 'emoções positivas'."
+            )
+        },
+        "necessidade_alteracao": "Sim - Consolidação (principalmente validar RGBEAC)",
+        "notas": (
+            "ANNEX I, Ponto 4 (Behavioral Needs) cobre bem-estar comportamental. @RGBEAC já implementa a maioria dos requisitos do Regulamento. "
+            "DL 276/2001 genérico, omisso em aspetos críticos. "
+            "INOVAÇÕES-CHAVE DO @RGBEAC vs. LEGISLAÇÃO ANTERIOR: "
+            "(i) proibição expressa acorrentamento permanente (omisso); (ii) proibição isolamento (omisso); "
+            "(iii) proibição coleiras elétricas/métodos aversivos (omisso); (iv) plano socialização documentado (omisso); "
+            "(v) acesso diário exercício 2x/dia 30min (omisso); (vi) inclusão 'brinquedos' em enriquecimento (omisso). "
+            "Validar implementação: confirmar que acorrentamento temporário é realmente 'ocasional', que planos de socialização "
+            "são documentados, que coleiras aversivas são efetivamente proibidas em mercado nacional."
+        )
     }
 ]
 
