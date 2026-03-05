@@ -168,12 +168,42 @@ ARTIGOS = [
         "notas": ""
     },
     {
+        "id": "ART-10",
+        "tema": "Aprovação de Estabelecimentos de Criação",
+        "regulamento": {
+            "ref": "Art.º 10.º do Regulamento 2023/0447",
+            "titulo": "Approval of breeding establishments",
+            "texto": "1.\tOperators of breeding establishments that either produce or intend to produce more than five litters per calendar year or that keep more than a combined total of five bitches or queens at any given time shall place dogs or cats on the market only after their establishment has been approved by the competent authority.\n\n2.\tThe competent authority shall perform on-site inspections to verify that the establishment meets the requirements of this Regulation. Member States may allow such inspections to be carried out remotely, provided that the means of distance communication used provides sufficient evidence for the competent authority to perform reliable inspections. The competent authority shall grant certificates of approval only to breeding establishments that meet the requirements of this Regulation.\n\n3.\tThe competent authority shall maintain a publicly available list including the following information for each approved establishment:\n\n(a)\tthe name, contact details and, where available, the URL of the website of the establishment;\n\n(b)\tthe address of the establishment;\n\n(c)\tthe name of the operator;\n\n(d)\tthe species and, if relevant, the breeds related to the establishment activities approved;\n\n(e)\tthe unique approval number assigned to the establishment by the competent authority and the date of the approval and cessation of activities.",
+            "traducao": "1.\tOs operadores de estabelecimentos de criação que produzem ou pretendem produzir mais de cinco ninhadas por ano civil ou que mantêm mais do que um total combinado de cinco cadelas ou gatas em qualquer momento podem colocar cães ou gatos no mercado apenas após a aprovação do seu estabelecimento pela autoridade competente.\n\n2.\tA autoridade competente deve realizar inspeções no local para verificar que o estabelecimento atende aos requisitos do presente Regulamento. Os Estados-Membros podem permitir que tais inspeções sejam realizadas remotamente, desde que o meio de comunicação à distância utilizado forneça provas suficientes para a autoridade competente realizar inspeções fiáveis. A autoridade competente deve conceder certificados de aprovação apenas aos estabelecimentos de criação que cumprem os requisitos do presente Regulamento.\n\n3.\tA autoridade competente deve manter uma lista disponível ao público incluindo as seguintes informações para cada estabelecimento aprovado:\n\n(a)\to nome, dados de contacto e, se disponível, o URL do site do estabelecimento;\n\n(b)\ta morada do estabelecimento;\n\n(c)\to nome do operador;\n\n(d)\ta(s) espécie(s) e, se relevante, a(s) raça(s) relacionada(s) com as atividades do estabelecimento aprovadas;\n\n(e)\to número de aprovação único atribuído ao estabelecimento pela autoridade competente e a data da aprovação e cessação de atividades."
+        },
+        "rgbeac": {
+            "ref": "Não se aplica",
+            "texto": "Não se aplica"
+        },
+        "codigo": {
+            "ref": "Não se aplica",
+            "texto": "Não se aplica"
+        },
+        "legislacao": {
+            "ref": "Não se aplica",
+            "texto": "Não se aplica"
+        },
+        "divergencia": {
+            "legislacao": "Conceito novo de ‘aprovação’ com limiar (>5 ninhadas/ano ou >5 cadelas/gatas)",
+            "codigo": "Não implementado",
+            "rgbeac": "Não implementado",
+            "sumario": "Artigo completamente novo no Regulamento. Introduz aprovação formal de criadores com limiar numérico."
+        },
+        "necessidade_alteracao": "Sim",
+        "notas": "Análise e correspondência nacional pendente de complementação."
+    },
+    {
         "id": "ART-11",
         "tema": "Detenção Responsável e Informação",
         "regulamento": {
             "ref": "Art.º 11.º do Regulamento 2023/0447",
             "titulo": "Obligation of informing on responsible ownership",
-            "texto": "1.	Operators shall provide to the acquirer of a dog or cat written information necessary to enable the acquirer to ensure the animal’s welfare, including information on responsible ownership and on the specific needs of the animal in terms of feeding, care, health and housing, as well as information on its behavioural needs and health history.\n\n2.	The written information on the dog or cat’s health history referred to in the first paragraph shall include at least:\n\n(a)	the animal’s vaccination status;\n\n(b)	any medical conditions or predispositions to diseases, including allergies, that are known to the operator, and any diagnostic test results for the dog or cat that are available to the operator.\n\nWhere the information on the animal’s health history is set out in a document required under Regulation (EU) 2016/429, the operator shall transmit that document to the acquirer.",
+            "texto": "1.\tOperators shall provide to the acquirer of a dog or cat written information necessary to enable the acquirer to ensure the animal’s welfare, including information on responsible ownership and on the specific needs of the animal in terms of feeding, care, health and housing, as well as information on its behavioural needs and health history.\n\n2.\tThe written information on the dog or cat’s health history referred to in the first paragraph shall include at least:\n\n(a)\tthe animal’s vaccination status;\n\n(b)\tany medical conditions or predispositions to diseases, including allergies, that are known to the operator, and any diagnostic test results for the dog or cat that are available to the operator.\n\nWhere the information on the animal’s health history is set out in a document required under Regulation (EU) 2016/429, the operator shall transmit that document to the acquirer.",
             "traducao": "Os operadores devem fornecer ao adquirente de um cão ou gato informação escrita necessária para lhe permitir assegurar o bem-estar do cão ou gato, incluindo informação sobre detenção responsável e sobre as necessidades específicas do cão ou gato em termos de alimentação, cuidados, saúde, alojamento e necessidades comportamentais, bem como informação sobre a sua saúde.\n\n1a. A informação escrita sobre a saúde do cão ou gato referida no parágrafo anterior deve incluir pelo menos:\n(a) o estado de vacinação do cão ou gato;\n(b) quaisquer condições médicas ou predisposições a doenças, incluindo alergias, conhecidas pelo operador, e quaisquer resultados de testes de diagnóstico para o cão ou gato que estejam disponíveis para o operador.\n\nCaso a informação sobre a saúde do cão ou gato esteja documentada num documento exigido sob o Regulamento (UE) 2016/429, o operador deve transmitir esse documento ao adquirente."
         },
         "rgbeac": {
@@ -226,36 +256,6 @@ ARTIGOS = [
         },
         "necessidade_alteracao": "Sim",
         "notas": ""
-    },
-    {
-        "id": "ART-10",
-        "tema": "Aprovação de Estabelecimentos de Criação",
-        "regulamento": {
-            "ref": "Art.º 10.º do Regulamento 2023/0447",
-            "titulo": "Approval of breeding establishments",
-            "texto": "1.	Operators of breeding establishments that either produce or intend to produce more than five litters per calendar year or that keep more than a combined total of five bitches or queens at any given time shall place dogs or cats on the market only after their establishment has been approved by the competent authority.\n\n2.	The competent authority shall perform on-site inspections to verify that the establishment meets the requirements of this Regulation. Member States may allow such inspections to be carried out remotely, provided that the means of distance communication used provides sufficient evidence for the competent authority to perform reliable inspections. The competent authority shall grant certificates of approval only to breeding establishments that meet the requirements of this Regulation.\n\n3.	The competent authority shall maintain a publicly available list including the following information for each approved establishment:\n\n(a)	the name, contact details and, where available, the URL of the website of the establishment;\n\n(b)	the address of the establishment;\n\n(c)	the name of the operator;\n\n(d)	the species and, if relevant, the breeds related to the establishment activities approved;\n\n(e)	the unique approval number assigned to the establishment by the competent authority and the date of the approval and cessation of activities.",
-            "traducao": "1.	Operators of breeding establishments that either produce or intend to produce more than five litters per calendar year or that keep more than a combined total of five bitches or queens at any given time shall place dogs or cats on the market only after their establishment has been approved by the competent authority.\n\n2.	The competent authority shall perform on-site inspections to verify that the establishment meets the requirements of this Regulation. Member States may allow such inspections to be carried out remotely, provided that the means of distance communication used provides sufficient evidence for the competent authority to perform reliable inspections. The competent authority shall grant certificates of approval only to breeding establishments that meet the requirements of this Regulation.\n\n3.	The competent authority shall maintain a publicly available list including the following information for each approved establishment:\n\n(a)	the name, contact details and, where available, the URL of the website of the establishment;\n\n(b)	the address of the establishment;\n\n(c)	the name of the operator;\n\n(d)	the species and, if relevant, the breeds related to the establishment activities approved;\n\n(e)	the unique approval number assigned to the establishment by the competent authority and the date of the approval and cessation of activities."
-        },
-        "rgbeac": {
-            "ref": "Não se aplica",
-            "texto": "Não se aplica"
-        },
-        "codigo": {
-            "ref": "Não se aplica",
-            "texto": "Não se aplica"
-        },
-        "legislacao": {
-            "ref": "Não se aplica",
-            "texto": "Não se aplica"
-        },
-        "divergencia": {
-            "legislacao": "Conceito novo de 'aprovação' com limiar (>5 ninhadas/ano ou >5 cadelas/gatas)",
-            "codigo": "Não implementado",
-            "rgbeac": "Não implementado",
-            "sumario": "Artigo completamente novo no Regulamento. Introduz aprovação formal de criadores com limiar numérico."
-        },
-        "necessidade_alteracao": "Sim",
-        "notas": "Análise e correspondência nacional pendente de complementação."
     },
     {
         "id": "ART-13",
