@@ -1011,7 +1011,7 @@ ARTIGOS = [
         "id": "ANNEX-II-NUMERO-1",
         "tema": "Requisitos Técnicos — Identificação e Registo de Cães e Gatos (Identification and Registration)",
         "regulamento": {
-            "ref": "ANEXO II do Regulamento 2023/0447 (conforme Articles 17 e 21)",
+            "ref": "ANEXO II do Regulamento 2023/0447 (conforme Articles 20 e 26)",
             "titulo": "Identification and registration of dogs and cats",
             "texto": "Transponders used to individually identify dogs and cats as required in Article 17 and Article 21 shall meet the following requirements:\n\n— the microchip shall contain an individual, non-repeatable and non-reprogrammable identification number;\n— the identification number shall start with the country of identification of the dog or cat identified in accordance with ISO standard 3166;\n— code structure and technical concept of radio frequency identification shall be in compliance with ISO standards 11784 and 11785;\n— compliance with ISO standards 11784 and 11785 shall be evaluated according to ISO standard 24631-1.",
             "traducao": "Os transponders usados para identificar individualmente cães e gatos conforme exigido nos artigos 17 e 21 devem cumprir os seguintes requisitos:\n\n— o microchip deve conter um número de identificação individual, não repetível e não reprogramável;\n— o número de identificação deve começar com o país de identificação do cão ou gato identificado de acordo com a norma ISO 3166;\n— a estrutura de código e o conceito técnico da identificação por radiofrequência devem estar em conformidade com as normas ISO 11784 e 11785;\n— a conformidade com as normas ISO 11784 e 11785 deve ser avaliada de acordo com a norma ISO 24631-1."
@@ -1041,7 +1041,7 @@ ARTIGOS = [
         "id": "ANNEX-III",
         "tema": "Recolha de Dados sobre Bem-Estar Animal — Relatório Trienal à Comissão UE",
         "regulamento": {
-            "ref": "ANEXO III do Regulamento 2023/0447 (conforme Article 20)",
+            "ref": "ANEXO III do Regulamento 2023/0447 (conforme Article 24)",
             "titulo": "Collection of data",
             "texto": "1. Number of dogs and cats registered per year, as referred to in Article 17 and Article 21(4).\n\n1a. Number of breeding establishments, selling establishments, shelters, and foster homes registered per year in accordance with Article 7.\n\n2. Number of breeding establishments approved per year, as referred to in Article 7a.\n\n2a. Number of breeding establishments whose approval has been suspended or withdrawn per year.",
             "traducao": "1. Número de cães e gatos registados por ano, conforme referido nos artigos 17.º e 21.º, n.º 4.\n\n1a. Número de estabelecimentos de criação, estabelecimentos de venda, abrigos e famílias de acolhimento registados por ano, em conformidade com o artigo 7.º.\n\n2. Número de estabelecimentos de criação aprovados por ano, conforme referido no artigo 7a.º.\n\n2a. Número de estabelecimentos de criação cuja aprovação foi suspensa ou revogada por ano."
