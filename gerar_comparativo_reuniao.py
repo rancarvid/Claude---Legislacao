@@ -1493,7 +1493,7 @@ def criar_html(path, artigos):
     display: inline-block;
     background: #C87878; color: #fff;
     border-radius: 4px; padding: 1px 7px;
-    font-size: .54rem; font-weight: 700; margin-left: 10px;
+    font-size: .65rem; font-weight: 700; margin-left: 10px;
   }}
 
   /* NOTAS */
