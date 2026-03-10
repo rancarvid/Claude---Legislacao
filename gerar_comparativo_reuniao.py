@@ -75,7 +75,7 @@ ARTIGOS = [
             "sumario": "Alinhamento substancial de conteúdo; sem necessidade de alteração imediata. Recomenda-se a adoção formal dos 5 domínios OMSA como referencial estruturante em futura revisão legislativa ou em normas de orientação técnica da DGAV."
         },
         "necessidade_alteracao": "Não",
-        "notas": ""
+        "notas": "(espaço para anotações da reunião)"
     },
     {
         "id": "ART-07",
@@ -105,7 +105,7 @@ ARTIGOS = [
             "sumario": "Lacuna transversal a toda a legislação nacional. Necessidade de: (1) criar o conceito de 'família de acolhimento' como extensão da atividade do operador; (2) fixar limite numérico de animais por família (máximo 5, ou 1 ninhada com mãe); (3) atribuir responsabilidade jurídica ao operador, não à família de acolhimento."
         },
         "necessidade_alteracao": "Sim",
-        "notas": ""
+        "notas": "(espaço para anotações da reunião)"
     },
     {
         "id": "ART-08",
@@ -135,7 +135,7 @@ ARTIGOS = [
             "sumario": "Lacuna normativa transversal. Necessidade de criar norma específica que: (1) defina traços conformacionais excessivos (a regular por ato delegado europeu até 2030); (2) proíba consanguinidade próxima (pais/filhos, irmãos, avós/netos); (3) proíba a produção de híbridos; (4) imponha consulta veterinária prévia ao acasalamento de animais potencialmente afetados."
         },
         "necessidade_alteracao": "Sim",
-        "notas": ""
+        "notas": "(espaço para anotações da reunião)"
     },
     {
         "id": "ART-09",
@@ -165,7 +165,7 @@ ARTIGOS = [
             "sumario": "A @legislacao vigente é o diploma base adequado para a transposição. Necessidade de ajuste: acrescentar a obrigação de estimativa anual de ninhadas a colocar no mercado e alinhar os restantes elementos informativos com a lista exaustiva do art.º 7.º do @regulamento."
         },
         "necessidade_alteracao": "Sim",
-        "notas": ""
+        "notas": "(espaço para anotações da reunião)"
     },
     {
         "id": "ART-10",
@@ -225,7 +225,7 @@ ARTIGOS = [
             "sumario": "Necessidade de alteração: (1) formalizar requisito de informação escrita como condição de transferência de animal; (2) especificar conteúdo obrigatório sobre bem-estar, saúde e necessidades comportamentais; (3) harmonizar entre @codigo e @rgbeac quanto a âmbito e forma."
         },
         "necessidade_alteracao": "Sim",
-        "notas": ""
+        "notas": "(espaço para anotações da reunião)"
     },
     {
         "id": "ART-12",
@@ -255,7 +255,7 @@ ARTIGOS = [
             "sumario": "Alinhamento parcial do @rgbeac com @regulamento. Para @codigo e @legislacao, necessidade de: (1) detalhar as 4 competências específicas (comportamento, reconhecimento de sofrimento, maneio positivo, conhecimento de obrigações); (2) exigir documentação formal de educação/formação/experiência; (3) requerer que operador designe formador responsável que transfira conhecimento; (4) implementar requisitos mínimos de formação via regulamento delegado."
         },
         "necessidade_alteracao": "Sim",
-        "notas": ""
+        "notas": "(espaço para anotações da reunião)"
     },
     {
         "id": "ART-13",
@@ -285,7 +285,7 @@ ARTIGOS = [
             "sumario": "Lacuna estrutural em toda a legislação nacional: enquanto o @regulamento exige 'visita de um veterinário' num prazo específico (1 ano) com manutenção de registos por 4 anos e transmissão entre veterinários, a legislação nacional concentra-se em ter um 'médico veterinário responsável' no estabelecimento. Necessidade de alteração: (1) formalizar obrigação de 'visita de avaliação' por veterinário dentro de 1 ano após notificação; (2) exigir avaliações periódicas conforme risco; (3) obrigatória manutenção de registos por 4 anos; (4) garantir transmissão de informações ao próximo veterinário avaliador; (5) estabelecer critérios mínimos de avaliação (bem-estar comportamental, alojamento, saúde, etc.)."
         },
         "necessidade_alteracao": "Sim",
-        "notas": ""
+        "notas": "(espaço para anotações da reunião)"
     },
     {
         "id": "ART-14",
@@ -344,7 +344,7 @@ ARTIGOS = [
             "rgbeac": "SIM - COBERTURA EXPANDIDA (especifica detalhes técnicos)",
             "sumario": "COBERTURA COMPLETA. Código do Animal e RGBEAC implementam requisitos do Artigo 12.º. Faltam especificações técnicas detalhadas (temperatura, ventilação, iluminação) — recomenda-se Portaria complementar."
         },
-        "necessidade_alteracao": "Sim - Portaria complementar com especificações técnicas",
+        "necessidade_alteracao": "Sim",
         "notas": "Princípios cobertos; faltam normas técnicas pormenorizadas"
     },
     {
@@ -375,7 +375,7 @@ ARTIGOS = [
             "sumario": "A @legislacao vigente (DL n.º 276/2001) tem o maior alinhamento, mas insuficiente. Necessidade de alteração dos três diplomas: (1) introduzir inspeção diária diferenciada para animais vulneráveis (al. (a) do n.º 1 do art.º 13.º do @regulamento); (2) criar obrigação de isolamento e tratamento imediato (al. (b)); (3) regular o processo de eutanásia com supervisão veterinária e anestesia/analgesia (al. (c)); (4) para criadores (n.º 2): fixar idade mínima e maturidade esquelética das fêmeas reprodutoras, frequência máxima de partos conforme Anexo I, proibição de cobrição de fêmeas a lactar, e regime de rehoming dos animais retirados da reprodução."
         },
         "necessidade_alteracao": "Sim",
-        "notas": ""
+        "notas": "(espaço para anotações da reunião)"
     },
     {
         "id": "ART-17",
@@ -404,7 +404,7 @@ ARTIGOS = [
             "rgbeac": "SIM - COBERTURA SIGNIFICATIVAMENTE EXPANDIDA",
             "sumario": "Legislação portuguesa oferece cobertura genérica. RGBEAC (2025) oferece avanço substancial com obrigatoriedade de reforço positivo e documentação de estratégia de socialização. Falta ainda regulamentação pormenorizada."
         },
-        "necessidade_alteracao": "Sim - Regulamentação específica sobre métodos de treino",
+        "necessidade_alteracao": "Sim",
         "notas": "RGBEAC alinha melhor; implementação de reforço positivo obrigatório recomendada"
     },
     {
@@ -495,7 +495,7 @@ ARTIGOS = [
             "sumario": "Necessidade de alteração: (1) reduzir prazo máximo de identificação de nascimentos para 3 meses; (2) criar prazo diferenciado de 30 dias para animais admitidos em estabelecimentos; (3) harmonizar prazos entre todos os diplomas nacionais."
         },
         "necessidade_alteracao": "Sim",
-        "notas": ""
+        "notas": "(espaço para anotações da reunião)"
     },
     {
         "id": "ART-21",
@@ -524,7 +524,7 @@ ARTIGOS = [
             "rgbeac": "SIM - Proibição clara de publicidade e venda online, com requisitos de local licenciado",
             "sumario": "A legislação portuguesa PROÍBE a publicidade e venda de animais de companhia na Internet (Art. 95.º RGBEAC). Falta apenas a implementação do sistema de verificação online com token único conforme Art. 17a.6 do Regulamento. A proibição é mais restritiva que o Regulamento que permite venda online com verificação."
         },
-        "necessidade_alteracao": "Sim - Sistema de verificação online com token único",
+        "necessidade_alteracao": "Sim",
         "notas": "Legislação portuguesa mais restritiva - proíbe venda online; Reg. EU permite com verificação"
     },
     {
@@ -614,7 +614,7 @@ ARTIGOS = [
             "rgbeac": "SIM - Cobertura COMPLETA (Art. 46.º estabelece sistema de relatórios nacionais)",
             "sumario": "A legislação portuguesa implementa COMPLETAMENTE o Artigo 20. Sistema já estabelecido com: recolha anual de dados de centros de bem-estar animal, consolidação de informação de bem-estar a nível nacional, inclusão de estatísticas de SIAC, registos de contraordenações e sanções, relatórios sobre atividades de proteção animal, conformidade com requisitos de Decreto-Regulamentar 3/2021. Único ajuste necessário: alinhamento da periodicidade de relatórios (atualmente anual; Regulamento requer trienal) e inclusão dos dados específicos de Annex III da EU (quando publicado)."
         },
-        "necessidade_alteracao": "Sim - Ajuste de periodicidade e conformidade com Annex III EU",
+        "necessidade_alteracao": "Sim",
         "notas": "Sistema de relatórios já operacional - apenas alinhamento com padrões EU necessário"
     },
     {
@@ -974,7 +974,7 @@ ARTIGOS = [
             "rgbeac": "PARCIAL CONVERGÊNCIA COM DIVERGÊNCIAS\nRGBEAC implementa a maioria dos requisitos mas com diferenças críticas: (i) idade mínima cadelas 18 meses (vs. 2º estro); (ii) idade máxima 6 anos (vs. sem máximo no Regulamento); (iii) frequência máxima 4 ninhadas/4 anos (vs. 3 ninhadas/2 anos); (iv) sem período de recuperação obrigatório; (v) proíbe 2 cesarianas (alinhado); (vi) sem avaliação veterinária para >8 anos (RGBEAC proíbe a partir dos 6 anos). Mais restritivo em idades máximas, menos em frequência temporal.",
             "sumario": "ANNEX I, Ponto 3 (Health) estabelece cinco requisitos essenciais: (i) idade mínima (rainhas 10 meses, cadelas 2º estro); (ii) máximo 3 ninhadas em 2 anos; (iii) período de recuperação 1 ano após limite; (iv) proibição de 2 cesarianas; (v) avaliação veterinária ≥8 anos (cadelas) / ≥6 anos (gatas). Legislação nacional carece de disposições específicas ou é significativamente divergente. Recomenda-se alteração fundamental para integrar todos os cinco requisitos, com atenção especial à frequência de ninhadas e período de recuperação, inexistentes na legislação atual."
         },
-        "necessidade_alteracao": "Sim - Alteração fundamental obrigatória",
+        "necessidade_alteracao": "Sim",
         "notas": "ANNEX I, Ponto 3 estabelece requisitos técnicos obrigatórios de saúde reprodutiva. Legislação portuguesa (DL 276/2001, Código, RGBEAC) carece de ou diverge significativamente nesta matéria. Recomenda-se: (i) incorporar idade mínima 10 meses (gatas) e 2º estro (cadelas); (ii) estabelecer máximo imperativo de 3 ninhadas em 2 anos (sem exceções veterinárias); (iii) exigir período de recuperação 1 ano após atingir limite; (iv) proibir uso após 2 cesarianas; (v) exigir avaliação veterinária escrita para cadelas ≥8 anos e gatas ≥6 anos. Estas alterações são críticas para garantir a conformidade com o Regulamento."
     },
     {
@@ -1004,7 +1004,7 @@ ARTIGOS = [
             "rgbeac": "4.1 SOCIALIZAÇÃO: CONVERGÊNCIA PARCIAL — exige 'plano de socialização' (Art. 52.7) mas sem especificação de: idade 3 semanas, frequência diária, tipos de contato, separação de animais agressivos\n4.2 ENRIQUECIMENTO: CONVERGÊNCIA SIGNIFICATIVA — menciona enriquecimento 'complexo', inclui 'brinquedos', mas omite 'postes de arranhadura' (essencial para gatos)\n4.3 SEPARAÇÃO: CONVERGÊNCIA SIGNIFICATIVA — @RGBEAC (Art. 70.5) exige 10 semanas (cães) / 12 semanas (gatos) com desmame gradual (MAIS RESTRITIVO que Regulamento 8-12 semanas)",
             "sumario": "ANNEX I, Ponto 4 (Behavioural Needs) tem três subsecções: (i) 4.1 Socialização — contato social diário desde 3 semanas (NOVO); (ii) 4.2 Enriquecimento — postes de arranhadura, abrigos, prateleiras para gatos (PARCIAL na legislação); (iii) 4.3 Separação — 8 semanas (puppies, kittens abrigos), 12 semanas (kittens breeding). DL 276/2001 é omisso em 4.1 e 4.3, parcial em 4.2. Código implementa 8 semanas para exposição (4.3) mas não separação maternal. @RGBEAC é mais restritivo (10-12 semanas separação) e cobre 4.1 (plano) e 4.2 (enriquecimento) com gaps específicos."
         },
-        "necessidade_alteracao": "Sim - Harmonização fundamental (4.1) + clarificação (4.2 postes arranhadura) + ajuste (4.3 separação vs. exposição)",
+        "necessidade_alteracao": "Sim",
         "notas": "ANNEX I, Ponto 4 contém 3 subsecções críticas de bem-estar comportamental. 4.1 SOCIALIZAÇÃO: COMPLETAMENTE NOVO — DL 276/2001 omisso. @RGBEAC menciona 'plano' (Art. 52.7) mas sem detalhe do Regulamento (3 semanas, frequência diária, tipos contato, documentação). IMPLEMENTAR: idade, frequência, contatos, registos, separação agressivos. 4.2 ENRIQUECIMENTO: CRÍTICO PARA GATOS — DL 276/2001 genérico, omite 'postes de arranhadura'. Código do Animal menciona 'prateleiras, poleiros' mas não especifica 'postes de arranhadura'. @RGBEAC omite completamente. IMPLEMENTAR: 'número suficiente de postes de arranhadura' (essencial bem-estar felino). 4.3 SEPARAÇÃO: DIVERGÊNCIA CONCEITUAL — Regulamento estabelece idade separação de MÃE (8-12 semanas); Código do Animal refere EXPOSIÇÃO em venda (8 semanas); @RGBEAC mais restritivo (10-12 semanas separação com desmame gradual). CLARIFICAR: 4.3 refere separação maternal, não comercialização."
     },
     {
@@ -1034,7 +1034,7 @@ ARTIGOS = [
             "rgbeac": "CONVERGÊNCIA PARCIAL\n✅ Integra Sistema de Informação de Animais de Companhia (SIAC) — mais robusto que Código\n✅ Registo obrigatório para TODOS os animais de companhia (não apenas cães e gatos comerciais)\n⚠️ CRÍTICO: Requisitos técnicos ISO standards NÃO MENCIONADOS explicitamente no resumo disponível\n⚠️ Prazos: A confirmar em texto completo do Capítulo II",
             "sumario": "ANNEX II (Identification and Registration) estabelece quatro requisitos técnicos de transponders: (i) número individual não-repetível; (ii) ISO 3166 (país); (iii) ISO 11784/11785 (radiofrequência); (iv) ISO 24631-1 (avaliação). Código do Animal implementa ISO 11784 mas não ISO 11785 ou 24631-1 (menos restritivo). @RGBEAC promove SIAC (mais robusto) mas não especifica ISO standards. Recomenda-se: validar conformidade portuguesa com ISO 11785 e 24631-1 (inovações do Regulamento)."
         },
-        "necessidade_alteracao": "Sim - Clarificação técnica (ISO 11785, 24631-1) + harmonização prazos",
+        "necessidade_alteracao": "Sim",
         "notas": "ANNEX II especifica requisitos TÉCNICOS de transponders/microchips (não procedimentos administrativos). IMPORTANTE DIVERGÊNCIA: Código do Animal exige ISO 11784; Regulamento exige ISO 11784/11785 + 24631-1. ISO 11785: estabelece padrão de radiofrequência para microchips. ISO 24631-1: metodologia de avaliação de conformidade. Ambas são NOVIDADES do Regulamento não presentes na legislação portuguesa anterior. @RGBEAC menciona SIAC (Sistema de Informação) mas não detalha requisitos técnicos ISO. Recomenda-se: (i) validar conformidade microchips portugueses com ISO 11785 e 24631-1; (ii) atualizar requisitos de aprovação/certificação de equipamentos; (iii) harmonizar prazos de identificação (3 meses vs. 30 dias por tipo operador)."
     },
     {
@@ -1056,7 +1056,7 @@ ARTIGOS = [
         },
         "legislacao": {
             "ref": "DL 82/2019 (Arts. 2.º-7.º), Lei 27/2016 (Arts. 1.º-9.º)",
-            "texto": "[dim]Decreto-Lei n.º 82/2019 de 27 de junho — Bem-Estar de Animais de Companhia\n\nArtigo 2.º — Âmbito de aplicação — Aplicável a cães, gatos e furões detidos para fins não comerciais.\n\nArtigo 3.º — Obrigações de registo — Proprietários de cães e gatos devem proceder ao registo no SIAC com identificação eletrónica obrigatória.\n\nArtigo 4.º — Identificação eletrónica — Via aplicação subcutânea de microchip (ISO 11784 e 11785).\n\nArtigo 5.º — Procedimentos de registo — Procedimentos de registo, atualização e consulta do SIAC estabelecidos em regulação complementar.\n\nArtigo 6.º — Controlos de acesso — Segurança de dados e autorização de acesso ao SIAC sob responsabilidade DGAV.\n\nArtigo 7.º — Rastreabilidade — Sistema garante rastreabilidade de dispositivos de identificação e proprietários.\n\n[dim]Lei n.º 27/2016 de 23 de agosto — Rede de Centros de Recolha e Proibição do Abate\n\nArtigo 1.º — Objeto — Aprova medidas para criação de rede de centros de recolha oficial de animais errantes.\n\nArtigo 2.º — Definições — Centros de recolha, abrigos, famílias de acolhimento — conceitos e categorias.\n\nArtigos 3.º-9.º — Estrutura e Funcionamento — Procedimentos de registo, aprovação, funcionamento e supervisão."
+            "texto": "Decreto-Lei n.º 82/2019 de 27 de junho — Bem-Estar de Animais de Companhia\n\nArtigo 2.º — Âmbito de aplicação — Aplicável a cães, gatos e furões detidos para fins não comerciais.\n\nArtigo 3.º — Obrigações de registo — Proprietários de cães e gatos devem proceder ao registo no SIAC com identificação eletrónica obrigatória.\n\nArtigo 4.º — Identificação eletrónica — Via aplicação subcutânea de microchip (ISO 11784 e 11785).\n\nArtigo 5.º — Procedimentos de registo — Procedimentos de registo, atualização e consulta do SIAC estabelecidos em regulação complementar.\n\nArtigo 6.º — Controlos de acesso — Segurança de dados e autorização de acesso ao SIAC sob responsabilidade DGAV.\n\nArtigo 7.º — Rastreabilidade — Sistema garante rastreabilidade de dispositivos de identificação e proprietários.\n\n[dim]Lei n.º 27/2016 de 23 de agosto — Rede de Centros de Recolha e Proibição do Abate\n\nArtigo 1.º — Objeto — Aprova medidas para criação de rede de centros de recolha oficial de animais errantes.\n\nArtigo 2.º — Definições — Centros de recolha, abrigos, famílias de acolhimento — conceitos e categorias.\n\nArtigos 3.º-9.º — Estrutura e Funcionamento — Procedimentos de registo, aprovação, funcionamento e supervisão."
         },
         "divergencia": {
             "legislacao": "ANÁLISE POR PONTO:\n\nPONTO 1 (Cães/gatos registados): ✅ CONFORMIDADE COMPLETA\nSIAC operacional desde 2019 (DL 82/2019) — registo obrigatório e eletrónico. Dados disponíveis anualmente.\n\nPONTO 1a (Estabelecimentos registados): ⚠️ CONFORMIDADE PARCIAL\nLei 27/2016 e DL 82/2019 cobrem criação, venda, abrigos. LACUNA: conceito \"famílias de acolhimento\" não explicitamente codificado em legislação vigente.\n\nPONTO 2 (Estabelecimentos aprovados): ❌ LACUNA CRÍTICA\nLegislação vigente menciona REGISTO de estabelecimentos de criação. FALTA: sistema específico de \"aprovação\" formal (vs. apenas registo). Portarias específicas de aprovação existem para outros setores (científico) — NÃO claramente para criadores de animais de companhia.\n\nPONTO 2a (Suspensão/revogação): ❌ LACUNA CRÍTICA\nDL 82/2019 e Lei 27/2016 NÃO mencionam procedimentos de suspensão ou revogação de aprovação de estabelecimentos.",
@@ -1064,7 +1064,7 @@ ARTIGOS = [
             "rgbeac": "ANÁLISE POR PONTO:\n\nPONTO 1: ✅ CONFORMIDADE COMPLETA\nArt. 20.º (SIAC) — registo obrigatório e operacional. Relatório nacional anual possível (Art. 46.º).\n\nPONTO 1a: ⚠️ CONFORMIDADE PARCIAL\nArt. 20.º implicitamente cobre estabelecimentos através de rastreabilidade de dispositivos. REQUER complementação: codificação explícita de registo de \"famílias de acolhimento\".\n\nPONTO 2: ❌ NÃO IMPLEMENTADO\nRGBEAC não menciona sistema de aprovação de criadores.\n\nPONTO 2a: ❌ NÃO IMPLEMENTADO\nRGBEAC não menciona suspensão/revogação de aprovação.",
             "sumario": "CONCLUSÃO GERAL:\n\nLegislação portuguesa implementa PARCIALMENTE os 4 pontos de Annex III (dados para relatório trienal à Comissão UE):\n\n✅ PONTO 1 — COBERTURA COMPLETA: SIAC operacional desde 2019. Dados de cães/gatos registados disponíveis anualmente.\n\n⚠️ PONTO 1a — COBERTURA PARCIAL: Sistema de registo de estabelecimentos existe (Lei 27/2016); conceito \"famílias de acolhimento\" requer codificação explícita.\n\n❌ PONTO 2 — LACUNA ESTRUTURAL: Falta sistema formal de \"aprovação\" de criadores. Existe apenas registo administrativo. Necessário: distinguir registo (mera inscrição) de aprovação (avaliação de conformidade com requisitos técnicos).\n\n❌ PONTO 2a — LACUNA ESTRUTURAL: Falta procedimentos formais de suspensão/revogação de aprovação. Necessário: mecanismo administrativo com critérios de suspensão e revogação.\n\nRECOMENDAÇÕES:\n1. Complementar Lei 27/2016 com definição e registo de \"famílias de acolhimento\" (ponto 1a).\n2. Criar sistema de aprovação prévia de estabelecimentos de criação, com avaliação de conformidade (ponto 2).\n3. Estabelecer procedimentos formais de suspensão/revogação com critérios administrativos (ponto 2a).\n4. Integrar dados coletados em relatório trienal da Comissão UE (conforme Art. 20 do Regulamento)."
         },
-        "necessidade_alteracao": "Sim — Estabelecer sistema de aprovação, suspensão e revogação de estabelecimentos de criação + codificar famílias de acolhimento",
+        "necessidade_alteracao": "Sim",
         "notas": "ANNEX III define dados OBRIGATÓRIOS para relatório trienal à Comissão UE (Art. 20 do Regulamento). SIAC português fornece dados para ponto 1 (cães/gatos registados) — sistema operacional desde 2019. Pontos 2 e 2a requerem regulação complementar urgente: aprovação formal de criadores (vs. apenas registo) + procedimentos de suspensão/revogação. Ponto 1a (estabelecimentos) — codificação explícita de \"famílias de acolhimento\" como categoria administrativa. Recomenda-se: Lei complementar ou Portaria reguladora para implementação completa dos 4 pontos antes do próximo período de reporte (trienal)."
     }
 ]
