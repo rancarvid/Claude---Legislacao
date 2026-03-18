@@ -6,9 +6,10 @@ Gera análise comparativa dos preâmbulos do @regulamento, @codigo e @rgbeac,
 cruzada com os temas recorrentes nas opiniões (@opiniao) e a realidade portuguesa.
 
 Uso:
-  python3 gerar_analise_preambulos.py          → gera HTML
-  python3 gerar_analise_preambulos.py --word   → gera Word (.docx)
-  python3 gerar_analise_preambulos.py --all    → gera HTML e Word
+  python3 gerar_analise_preambulos.py           → gera HTML
+  python3 gerar_analise_preambulos.py --word    → gera Word (.docx)
+  python3 gerar_analise_preambulos.py --excel   → gera Excel (.xlsx)
+  python3 gerar_analise_preambulos.py --all     → gera HTML, Word e Excel
 """
 
 import sys
@@ -946,17 +947,260 @@ def gerar_word():
     return doc
 
 # ─────────────────────────────────────────────────────────────────────────────
+# GERAÇÃO EXCEL
+# ─────────────────────────────────────────────────────────────────────────────
+
+def gerar_excel():
+    try:
+        from openpyxl import Workbook
+        from openpyxl.styles import PatternFill, Font, Alignment, Border, Side
+        from openpyxl.utils import get_column_letter
+    except ImportError:
+        print("ERRO: openpyxl não está instalado. Execute: pip install openpyxl")
+        sys.exit(1)
+
+    wb = Workbook()
+    wb.remove(wb.active)  # Remove default sheet
+
+    # Paleta de cores (RGB hex)
+    cor_header = "CBD5E1"  # cinzento-azul suave
+    cor_favor = "DCEEDE"   # verde pastel
+    cor_contra = "EAD6D6"  # rosa suave
+    cor_reforco = "F5E7D1" # bege suave
+    cor_derrog = "E8E0F0"  # roxo pastel
+    cor_impacto_alto = "D9D4D4"  # cinzento suave
+    cor_fundo = "FAFBFC"   # cinzento muito claro
+    cor_linha = "E5E7EB"   # cinzento claro
+
+    # Borders
+    thin_border = Border(
+        left=Side(style='thin', color='E5E7EB'),
+        right=Side(style='thin', color='E5E7EB'),
+        top=Side(style='thin', color='E5E7EB'),
+        bottom=Side(style='thin', color='E5E7EB')
+    )
+
+    def adicionar_sec(titulo, linhas_conteudo, cor_header_sec=cor_header):
+        """Adiciona uma nova folha com conteúdo estruturado."""
+        ws = wb.create_sheet(titulo)
+
+        # Larguras de coluna
+        ws.column_dimensions['A'].width = 25
+        ws.column_dimensions['B'].width = 45
+        ws.column_dimensions['C'].width = 35
+
+        row = 1
+        for conteudo in linhas_conteudo:
+            if isinstance(conteudo, dict):
+                if conteudo['tipo'] == 'titulo':
+                    ws.merge_cells(f'A{row}:C{row}')
+                    cell = ws[f'A{row}']
+                    cell.value = conteudo['valor']
+                    cell.font = Font(name='Calibri', size=14, bold=True, color='5B7A8F')
+                    cell.alignment = Alignment(horizontal='left', vertical='center', wrap_text=True)
+                    row += 1
+                    row += 1  # Espacamento
+                elif conteudo['tipo'] == 'tabela':
+                    # Cabeçalho
+                    for col_idx, cab in enumerate(conteudo['cabecalhos'], 1):
+                        cell = ws.cell(row=row, column=col_idx)
+                        cell.value = cab
+                        cell.fill = PatternFill(start_color=cor_header_sec, end_color=cor_header_sec, fill_type='solid')
+                        cell.font = Font(name='Calibri', size=10, bold=True, color='1A1A2E')
+                        cell.alignment = Alignment(horizontal='left', vertical='center', wrap_text=True)
+                        cell.border = thin_border
+                    row += 1
+
+                    # Dados
+                    for linha in conteudo['dados']:
+                        for col_idx, val in enumerate(linha, 1):
+                            cell = ws.cell(row=row, column=col_idx)
+                            cell.value = val
+                            cell.font = Font(name='Calibri', size=9)
+                            cell.alignment = Alignment(horizontal='left', vertical='top', wrap_text=True)
+                            cell.border = thin_border
+                            # Alternância de cores
+                            if row % 2 == 0:
+                                cell.fill = PatternFill(start_color='F8F9FC', end_color='F8F9FC', fill_type='solid')
+                        row += 1
+                    row += 2  # Espacamento entre tabelas
+
+        return ws
+
+    # SEC 1 — Regulamento Europeu
+    adicionar_sec("Sec1", [
+        {'tipo': 'titulo', 'valor': 'Espírito do Regulamento Europeu 2023/0447'},
+        {'tipo': 'tabela', 'cabecalhos': ['Objetivo', 'Instrumento / Mecanismo'],
+         'dados': [(o, i) for o, i in SEC1_OBJETIVOS]},
+    ], cor_favor)
+
+    # SEC 2 — @codigo
+    adicionar_sec("Sec2", [
+        {'tipo': 'titulo', 'valor': 'Espírito do @codigo (DL 214/2013) vs. Regulamento'},
+        {'tipo': 'tabela', 'cabecalhos': ['Dimensão', '@codigo', 'Regulamento 2023/0447'],
+         'dados': [(d, c, r) for d, c, r in SEC2_COMPARACAO]},
+    ], "DCC9C6")
+
+    # SEC 3 — RGBEAC
+    adicionar_sec("Sec3", [
+        {'tipo': 'titulo', 'valor': 'Principais inovações do RGBEAC'},
+        {'tipo': 'tabela', 'cabecalhos': ['Inovação', 'Conteúdo', 'Países / Referências'],
+         'dados': [(i, d, r) for i, d, r in SEC3_INOVACOES]},
+    ], "C8DCC6")
+
+    # SEC 4 — Opiniões (matriz)
+    ws_sec4 = wb.create_sheet("Sec4")
+    ws_sec4.column_dimensions['A'].width = 20
+    for idx, tema in enumerate(OPINIAO_TEMAS, 1):
+        ws_sec4.column_dimensions[get_column_letter(idx+1)].width = 16
+
+    row = 1
+    # Título
+    ws_sec4.merge_cells(f'A1:{get_column_letter(len(OPINIAO_TEMAS)+2)}{row}')
+    cell_title = ws_sec4[f'A1']
+    cell_title.value = 'Matriz de Opiniões: 18 Organizações × 10 Temas'
+    cell_title.font = Font(name='Calibri', size=14, bold=True, color='5B7A8F')
+    cell_title.alignment = Alignment(horizontal='left', vertical='center', wrap_text=True)
+    row += 2
+
+    # Cabeçalho
+    ws_sec4.cell(row=row, column=1).value = 'Organização'
+    ws_sec4.cell(row=row, column=1).fill = PatternFill(start_color=cor_header, end_color=cor_header, fill_type='solid')
+    ws_sec4.cell(row=row, column=1).font = Font(name='Calibri', size=9, bold=True, color='1A1A2E')
+    ws_sec4.cell(row=row, column=1).border = thin_border
+
+    for col_idx, tema in enumerate(OPINIAO_TEMAS, 2):
+        cell = ws_sec4.cell(row=row, column=col_idx)
+        cell.value = tema.replace('\n', ' ')
+        cell.fill = PatternFill(start_color=cor_header, end_color=cor_header, fill_type='solid')
+        cell.font = Font(name='Calibri', size=8, bold=True, color='1A1A2E')
+        cell.alignment = Alignment(horizontal='center', vertical='center', wrap_text=True)
+        cell.border = thin_border
+    row += 1
+
+    # Dados opiniões
+    for org, tipo, posicoes in OPINIAO_DADOS:
+        ws_sec4.cell(row=row, column=1).value = org
+        ws_sec4.cell(row=row, column=1).font = Font(name='Calibri', size=9, bold=True)
+        ws_sec4.cell(row=row, column=1).border = thin_border
+
+        for col_idx, pos in enumerate(posicoes, 2):
+            cell = ws_sec4.cell(row=row, column=col_idx)
+            cell.value = pos if pos != "—" else ""
+            cell.border = thin_border
+            cell.alignment = Alignment(horizontal='center', vertical='center', wrap_text=True)
+            cell.font = Font(name='Calibri', size=8)
+
+            # Cor baseada em posição
+            if "Favor" in pos:
+                cell.fill = PatternFill(start_color=cor_favor, end_color=cor_favor, fill_type='solid')
+            elif "Contra" in pos:
+                cell.fill = PatternFill(start_color=cor_contra, end_color=cor_contra, fill_type='solid')
+            elif "reforço" in pos or "⚠" in pos:
+                cell.fill = PatternFill(start_color=cor_reforco, end_color=cor_reforco, fill_type='solid')
+            elif "derrogação" in pos or "△" in pos:
+                cell.fill = PatternFill(start_color=cor_derrog, end_color=cor_derrog, fill_type='solid')
+        row += 1
+
+    # SEC 5 — Questões polémicas
+    sec5_dados = []
+    for tema, artigo, polemica, nivel, nota in SEC5_TEMAS:
+        sec5_dados.append([f"{tema}\n({artigo})", polemica, nivel_label(nivel), nota])
+
+    adicionar_sec("Sec5", [
+        {'tipo': 'titulo', 'valor': 'Questões polémicas / Difícil aplicação em Portugal'},
+        {'tipo': 'tabela', 'cabecalhos': ['Tema', 'Polémica', 'Impacto PT', 'Nota específica'],
+         'dados': sec5_dados},
+    ], cor_contra)
+
+    # SEC 6 — Dados estatísticos
+    ws_sec6 = wb.create_sheet("Sec6")
+    ws_sec6.column_dimensions['A'].width = 30
+    ws_sec6.column_dimensions['B'].width = 18
+    ws_sec6.column_dimensions['C'].width = 35
+
+    row = 1
+    for bloco in SEC6_ESTATISTICAS:
+        # Título do bloco
+        ws_sec6.merge_cells(f'A{row}:C{row}')
+        cell = ws_sec6[f'A{row}']
+        cell.value = bloco['categoria']
+        cell.font = Font(name='Calibri', size=12, bold=True, color='2980B9')
+        cell.alignment = Alignment(horizontal='left', vertical='center', wrap_text=True)
+        row += 1
+
+        # Cabeçalho da tabela
+        for col_idx, cab in enumerate(['Indicador', 'Valor', 'Nota'], 1):
+            cell = ws_sec6.cell(row=row, column=col_idx)
+            cell.value = cab
+            cell.fill = PatternFill(start_color=cor_header, end_color=cor_header, fill_type='solid')
+            cell.font = Font(name='Calibri', size=9, bold=True, color='1A1A2E')
+            cell.alignment = Alignment(horizontal='left', vertical='center', wrap_text=True)
+            cell.border = thin_border
+        row += 1
+
+        # Dados
+        for ind, val, n in bloco['items']:
+            ws_sec6.cell(row=row, column=1).value = ind
+            ws_sec6.cell(row=row, column=2).value = val
+            ws_sec6.cell(row=row, column=3).value = n
+
+            for col in range(1, 4):
+                cell = ws_sec6.cell(row=row, column=col)
+                cell.border = thin_border
+                cell.font = Font(name='Calibri', size=9)
+                cell.alignment = Alignment(horizontal='left', vertical='top', wrap_text=True)
+                if row % 2 == 0:
+                    cell.fill = PatternFill(start_color='F8F9FC', end_color='F8F9FC', fill_type='solid')
+            row += 1
+        row += 2  # Espacamento
+
+    # Folha de Legenda
+    ws_leg = wb.create_sheet("Legenda")
+    ws_leg.column_dimensions['A'].width = 20
+    ws_leg.column_dimensions['B'].width = 40
+
+    leg_row = 1
+    ws_leg.cell(row=leg_row, column=1).value = "Paleta de cores — Legenda"
+    ws_leg.cell(row=leg_row, column=1).font = Font(name='Calibri', size=14, bold=True, color='5B7A8F')
+    leg_row += 2
+
+    legendas = [
+        ("Verde pastel", cor_favor, "Posição Favor / Apoio nas opiniões"),
+        ("Rosa suave", cor_contra, "Posição Contra / Crítica nas opiniões"),
+        ("Bege suave", cor_reforco, "Propõe reforço / Crítica moderada"),
+        ("Roxo pastel", cor_derrog, "Propõe derrogação / Flexibilização"),
+        ("Cinzento suave", cor_impacto_alto, "Impacto Muito Alto em Portugal"),
+    ]
+
+    for cor_nome, cor_hex, descricao in legendas:
+        ws_leg.cell(row=leg_row, column=1).value = cor_nome
+        ws_leg.cell(row=leg_row, column=2).value = descricao
+        ws_leg.cell(row=leg_row, column=1).fill = PatternFill(start_color=cor_hex, end_color=cor_hex, fill_type='solid')
+        ws_leg.cell(row=leg_row, column=1).font = Font(name='Calibri', size=10)
+        ws_leg.cell(row=leg_row, column=2).font = Font(name='Calibri', size=10)
+        ws_leg.cell(row=leg_row, column=1).border = thin_border
+        ws_leg.cell(row=leg_row, column=2).border = thin_border
+        ws_leg.cell(row=leg_row, column=1).alignment = Alignment(horizontal='center', vertical='center')
+        ws_leg.cell(row=leg_row, column=2).alignment = Alignment(horizontal='left', vertical='center', wrap_text=True)
+        leg_row += 1
+
+    return wb
+
+# ─────────────────────────────────────────────────────────────────────────────
 # MAIN
 # ─────────────────────────────────────────────────────────────────────────────
 
 def main():
     parser = argparse.ArgumentParser(description="Gera análise dos preâmbulos e opiniões.")
     parser.add_argument('--word', action='store_true', help='Gera documento Word (.docx)')
-    parser.add_argument('--all', action='store_true', help='Gera HTML e Word')
+    parser.add_argument('--excel', action='store_true', help='Gera documento Excel (.xlsx)')
+    parser.add_argument('--all', action='store_true', help='Gera HTML, Word e Excel')
     args = parser.parse_args()
 
-    gerar_html_flag = not args.word or args.all
+    gerar_html_flag = not args.word and not args.excel or args.all
     gerar_word_flag = args.word or args.all
+    gerar_excel_flag = args.excel or args.all
 
     if gerar_html_flag:
         html = gerar_html()
@@ -971,8 +1215,14 @@ def main():
         doc.save(ficheiro_docx)
         print(f"✓ Word gerado: {ficheiro_docx}")
 
-    if not gerar_html_flag and not gerar_word_flag:
-        print("Uso: python3 gerar_analise_preambulos.py [--word] [--all]")
+    if gerar_excel_flag:
+        wb = gerar_excel()
+        ficheiro_xlsx = "analise_preambulos_opinoes.xlsx"
+        wb.save(ficheiro_xlsx)
+        print(f"✓ Excel gerado: {ficheiro_xlsx}")
+
+    if not gerar_html_flag and not gerar_word_flag and not gerar_excel_flag:
+        print("Uso: python3 gerar_analise_preambulos.py [--word] [--excel] [--all]")
 
 if __name__ == '__main__':
     main()
