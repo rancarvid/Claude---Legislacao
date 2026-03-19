@@ -129,11 +129,19 @@ rows6 = [
         'a sua boa e adequada nutrição e hidratação.\n(al. (a) do art.º 6.º)',
         'Art.º 7.º, n.º 1, al. a) — proibição de fome, sede ou malnutrição.\n'
         'Art.º 10.º, n.º 1, al. a), ii) — alimentos saudáveis, adequados e convenientes; '
-        'acesso permanente a água potável.\nCoberto.',
+        'acesso permanente a água potável.\n'
+        'Art.º 51.º, n.º 1 — programa de alimentação bem definido, de valor nutritivo adequado, '
+        'em quantidade suficiente para as necessidades das espécies e dos indivíduos.\n'
+        'Art.º 51.º, n.º 6 — acesso a água potável sem restrição '
+        '(salvo razões médico-veterinárias).\nCoberto.',
         'Art.º 4.º — dever de assegurar as necessidades básicas de bem-estar.\n'
-        'Art.º 5.º, n.º 1 — condições de detenção e alojamento devem salvaguardar '
-        'os parâmetros de bem-estar.\n'
-        'Sem correspondência explícita a alimentação e hidratação como norma autónoma.',
+        'Art.º 46.º, n.º 1 — programa de alimentação bem definido, de valor nutritivo adequado, '
+        'em quantidade suficiente para as necessidades das espécies e dos indivíduos '
+        '(nos locais de criação, manutenção, venda, centros de recolha e hospedagem).\n'
+        'Art.º 46.º, n.º 6 — acesso a água potável sem restrição '
+        '(salvo razões médico-veterinárias).\n'
+        'Coberto no âmbito de estabelecimentos '
+        '(art.º 46.º não se aplica à detenção doméstica individual).',
     ),
     # al. (b).1 — ambiente físico: qualidade/limpeza/segurança
     (
@@ -144,9 +152,20 @@ rows6 = [
         'Art.º 7.º, n.º 1, al. b) — proibição de desconforto físico ou térmico.\n'
         'Art.º 10.º, n.º 1, al. a), v) — abrigo adequado com proteção de condições '
         'atmosféricas adversas (frio, chuva, sol ou calor excessivos); cama seca, limpa '
-        'e confortável.\nParcialmente coberto (sem referência explícita a qualidade do ar ou iluminação).',
+        'e confortável.\n'
+        'Art.º 48.º, n.º 1 — temperatura, ventilação, luminosidade e obscuridade '
+        'adequadas à manutenção do bem-estar e conforto das espécies.\n'
+        'Art.º 48.º, n.º 3 — luz preferencialmente natural; luz artificial o mais próxima '
+        'do espectro solar.\n'
+        'Parcialmente coberto (sem referência explícita a qualidade do ar como parâmetro '
+        'distinto da ventilação).',
         'Art.º 5.º, n.º 1 — condições de detenção devem salvaguardar bem-estar.\n'
-        'Sem enumeração explícita dos parâmetros físicos (ar, temperatura, luz).',
+        'Art.º 14.º, n.º 1 — temperatura, ventilação, luminosidade e obscuridade das '
+        'instalações adequadas ao bem-estar das espécies.\n'
+        'Art.º 14.º, n.º 3 — luz preferencialmente natural; artificial o mais próxima '
+        'do espectro solar.\n'
+        'Parcialmente coberto (sem referência explícita a qualidade do ar como parâmetro '
+        'distinto da ventilação).',
     ),
     # al. (b).2 — espaço suficiente / liberdade de movimento
     (
@@ -155,11 +174,15 @@ rows6 = [
         'sobrelotação e garantir a facilidade de movimentação.\n(al. (b) do art.º 6.º)',
         'Art.º 10.º, n.º 1, al. a), iv) — liberdade de movimento; proibição de contenção '
         'permanente; espaço e enriquecimento ambiental adequados.\n'
+        'Art.º 47.º, n.º 1 — espaço adequado às necessidades fisiológicas e etológicas; '
+        'prática de exercício físico; fuga de animais agressores.\n'
         'Portaria prevista no art.º 58.º fixará requisitos específicos.\n'
         'Parcialmente coberto (sobrelotação não referenciada de forma autónoma).',
         'Art.º 5.º, n.º 3, al. b) — proibição de restringir a liberdade de movimentos de '
         'forma a impedir levantar-se, deitar-se ou virar-se sobre si próprios.\n'
-        'Sem norma sobre sobrelotação.',
+        'Art.º 13.º, n.º 1, als. a) e b) — espaço adequado às necessidades fisiológicas '
+        'e etológicas; prática de exercício físico; fuga de animais agressores.\n'
+        'Parcialmente coberto (sobrelotação não referenciada de forma autónoma).',
     ),
     # al. (c).1 — segurança, limpeza e saúde
     (
@@ -169,10 +192,16 @@ rows6 = [
         'Art.º 7.º, n.º 1, al. c) — proibição de dor, lesão física ou doença.\n'
         'Art.º 10.º, n.º 1, al. a), iii) — condições higiossanitárias.\n'
         'Art.º 10.º, n.º 1, al. f) — tratamento veterinário preventivo, paliativo ou curativo.\n'
+        'Art.º 52.º, n.º 2 — todos os animais alvo de inspeção no início e final do dia '
+        'e a cada quatro horas; primeiros cuidados imediatos a animais doentes ou lesionados.\n'
         'Coberto.',
         'Art.º 4.º — dever de salvaguardar a saúde.\n'
-        'Art.º 6.º — dever de assegurar cuidados médico-veterinários ao animal ferido ou doente.\n'
-        'Coberto em termos gerais.',
+        'Art.º 6.º — dever de assegurar cuidados médico-veterinários ao animal ferido '
+        'ou doente.\n'
+        'Art.º 47.º, n.º 3 — inspeção diária de todos os animais; primeiros cuidados '
+        'imediatos a animais doentes, lesionados ou com alterações comportamentais.\n'
+        'Coberto em termos gerais (inspeção diária; sem diferenciação de frequência '
+        'para animais vulneráveis).',
     ),
     # al. (c).2 — prevenção via maneio e reprodução
     (
@@ -181,12 +210,18 @@ rows6 = [
         'manuseamento e reprodução adequadas.\n(al. (c) do art.º 6.º)',
         'Art.º 12.º, n.º 1, al. b) — proibição de práticas que causem sofrimento, dano, '
         'stresse ou angústia.\n'
+        'Art.º 52.º, n.ºs 3 e 5 — maneio feito de forma a não causar dores, sofrimento '
+        'ou distúrbios desnecessários; meios de contenção não devem causar ferimentos, '
+        'dores ou angústia.\n'
         'Art.º 70.º (normas reprodutivas) — limitações à reprodução para proteção da saúde.\n'
-        'Coberto de forma dispersa.',
+        'Coberto.',
         'Art.º 5.º, n.º 3, al. c) — proibição de usar equipamentos de maneio, contenção '
         'ou treino que causem sofrimento desnecessário ou lesões.\n'
+        'Art.º 47.º, n.ºs 4 e 5 — manuseamento feito de forma a não causar dores, '
+        'sofrimento ou distúrbios desnecessários; meios de contenção não devem causar '
+        'ferimentos, dores ou angústia.\n'
         'Art.º 8.º, n.º 1 e 2 — reprodução planeada e parâmetros reprodutivos.\n'
-        'Coberto de forma dispersa.',
+        'Coberto.',
     ),
     # al. (d).1 — comportamentos específicos da espécie
     (
@@ -197,10 +232,16 @@ rows6 = [
         'Art.º 10.º, n.º 1, al. a), iv) — espaço e enriquecimento ambiental adequados para a '
         'expressão dos comportamentos naturais.\n'
         'Art.º 10.º, n.º 1, al. a), vi) — contato social adequado à espécie, de acordo com '
-        'a idade e atividade.\nCoberto.',
-        'Art.º 5.º, n.º 1 — condições de detenção que salvaguardem parâmetros de bem-estar '
-        '(sem menção explícita a comportamentos específicos da espécie).\n'
-        'Não coberto de forma explícita.',
+        'a idade e atividade.\n'
+        'Art.º 47.º, n.º 4 — enriquecimento ambiental complexo e estimulante com materiais '
+        'e equipamento que estimulem a expressão do repertório de comportamentos naturais.\n'
+        'Coberto.',
+        'Art.º 5.º, n.º 1 — condições de detenção que salvaguardem parâmetros de bem-estar.\n'
+        'Art.º 13.º, n.º 5 — instalações equipadas com materiais e equipamento que '
+        'estimulem a expressão dos comportamentos naturais (substrato, cama, ninhos, '
+        'ramos, buracos, locais para banhos).\n'
+        'Parcialmente coberto (enriquecimento ambiental para comportamentos naturais; '
+        'sem referência explícita a comportamentos sociais não nocivos).',
     ),
     # al. (d).2 — relação positiva com humanos
     (
@@ -209,11 +250,14 @@ rows6 = [
         'positiva com os seres humanos.\n(al. (d) do art.º 6.º)',
         'Art.º 10.º, n.º 1, al. c) — dever de educar o animal com recurso a métodos de '
         'reforço positivo visando a sua vinculação e integração positivas no espaço familiar '
-        'e no meio ambiente.\nCoberto.',
+        'e no meio ambiente.\n'
+        'Art.º 52.º, n.º 4 — interações do pessoal técnico com os animais devem ser '
+        'positivas, regulares, previsíveis e não forçadas.\nCoberto.',
         'Art.º 7.º, n.º 1 — dever de promover o treino dos cães com vista à socialização '
         'e obediência.\n'
         'Art.º 7.º, n.º 2 — treino de acordo com boas práticas.\n'
-        'Parcialmente coberto (apenas cães; sem referência explícita a relação positiva).',
+        'Parcialmente coberto (apenas cães; sem referência explícita a relação positiva '
+        'com os seres humanos como fim autónomo).',
     ),
     # al. (e).1 — prevenção/redução de estímulos negativos
     (
@@ -225,7 +269,7 @@ rows6 = [
         'Art.º 12.º, n.º 1, al. b) — proibição de práticas que causem sofrimento, dano, '
         'stresse ou angústia.\nParcialmente coberto (abordagem proibitiva; não preventiva).',
         'Art.º 5.º, n.º 3 — proibição de violência e sofrimento.\n'
-        'Sem referência explícita à gestão de estímulos negativos.',
+        'Sem referência explícita à gestão ativa de estímulos negativos.',
     ),
     # al. (e).2 — maximização de estímulos positivos
     (
@@ -233,9 +277,12 @@ rows6 = [
         'Os cães e gatos são mantidos de forma a maximizar oportunidades para estímulos '
         'positivos em duração e intensidade.\n(al. (e) do art.º 6.º)',
         'Art.º 10.º, n.º 1, al. a), i) — dever de proporcionar atenção, supervisão, '
-        'controlo, exercício físico e estímulo mental.\nParcialmente coberto.',
-        'Art.º 5.º, n.º 4 — proibição de fins didáticos e lúdicos que causem sofrimento.\n'
-        'Sem norma positiva sobre estímulos positivos.',
+        'controlo, exercício físico e estímulo mental.\n'
+        'Art.º 47.º, n.ºs 6 e 7 — acesso diário a área de exercício (mínimo 2×30 min); '
+        'equipamento de enriquecimento ambiental e agilidade.\nParcialmente coberto.',
+        'Art.º 13.º, n.º 5 — materiais e equipamento que estimulem a expressão dos '
+        'comportamentos naturais.\n'
+        'Sem norma positiva explícita sobre maximização de estímulos positivos.',
     ),
     # al. (e).3 — prevenção de comportamentos repetitivos anormais
     (
@@ -243,9 +290,9 @@ rows6 = [
         'Os cães e gatos são mantidos de forma a prevenir o desenvolvimento de comportamentos '
         'repetitivos anormais ou outros comportamentos indicativos de bem-estar negativo.\n'
         '(al. (e) do art.º 6.º)',
-        'Não regulado explicitamente.\n'
-        '(O art.º 7.º, n.º 1, al. d) e e) do @rgbeac indiretamente impõem condições que '
-        'previnem o seu aparecimento, mas sem norma autónoma.)',
+        'Não regulado explicitamente como norma autónoma.\n'
+        '(O art.º 7.º, n.º 1, al. d) e e) e o art.º 47.º do @rgbeac indiretamente '
+        'impõem condições que previnem o seu aparecimento.)',
         'Não regulado explicitamente.',
     ),
     # al. (e).4 — necessidades individuais do animal
@@ -255,10 +302,15 @@ rows6 = [
         'domínios referidos nas alíneas (a) a (d).\n(al. (e) do art.º 6.º)',
         'Art.º 10.º, n.º 1, al. a) — bem-estar assegurado "de acordo com a sua espécie, '
         'raça, idade e necessidades físicas e etológicas".\n'
-        'Parcialmente coberto (necessidades da espécie/raça/idade; não explicitamente '
-        'individuais).',
+        'Art.º 48.º, n.º 2 — fatores ambientais adequados às necessidades específicas '
+        'de animais em fase reprodutiva, recém-nascidos ou doentes.\n'
+        'Parcialmente coberto (necessidades da espécie/raça/idade/fase fisiológica; '
+        'não explicitamente individuais).',
         'Art.º 4.º — necessidades básicas de bem-estar (sem referência à individualidade '
-        'do animal).',
+        'do animal).\n'
+        'Art.º 14.º, n.º 2 — fatores ambientais adequados às necessidades específicas de '
+        'animais em fase reprodutiva, recém-nascidos ou doentes.\n'
+        'Parcialmente coberto.',
     ),
 ]
 
@@ -372,11 +424,17 @@ rows7 = [
         'Os operadores asseguram que os cães e gatos são manuseados por um número suficiente '
         'de cuidadores de animais para satisfazer as necessidades de bem-estar, e que esses '
         'cuidadores possuem as competências exigidas no artigo 12.º.\n(n.º 7 do art.º 7.º)',
-        'Não regulado de forma explícita.\n'
-        '(O @rgbeac prevê deveres do detentor — art.º 10.º — mas não aborda o número de '
-        'cuidadores por estabelecimento ou as suas competências técnicas específicas.)',
-        'Não regulado (o @codigo não define "cuidador de animais" como sujeito de '
-        'obrigações autónomas).',
+        'Art.º 52.º, n.º 1 — observação diária dos animais e maneio assegurados por pessoal '
+        'técnico com formação teórica e prática específica certificada pela DGAV e em número '
+        'adequado à quantidade e espécies animais alojados.\n'
+        'Parcialmente coberto (número adequado e formação exigidos; sem remissão para '
+        'catálogo de competências específico equivalente ao art.º 12.º do Regulamento).',
+        'Art.º 47.º, n.º 1 — observação diária dos animais e maneio assegurados por pessoal '
+        'com aptidão para o efeito e em número adequado à quantidade e espécies animais.\n'
+        'Art.º 47.º, n.º 2 — maneio por pessoal com experiência ou formação adequada, '
+        'sob orientação de médico veterinário.\n'
+        'Parcialmente coberto (número adequado e formação exigidos; sem catálogo de '
+        'competências específico equivalente ao art.º 12.º do Regulamento).',
     ),
     # n.º 8 — monitorização de indicadores baseados nos animais
     (
@@ -386,12 +444,18 @@ rows7 = [
         'ações com base nos resultados desse monitoramento.\n'
         'A Comissão adotará atos delegados que estabelecerão os indicadores e os métodos '
         'de medição.\n(n.ºs 8 e 9 do art.º 7.º)',
-        'Não regulado explicitamente.\n'
-        '(O @rgbeac prevê obrigação geral de vigiar o animal — art.º 10.º, n.º 1, al. b) '
-        '— mas sem sistema de indicadores formais nem obrigação de ação baseada em resultados.)',
-        'Não regulado.\n'
-        '(O @codigo não prevê indicadores de bem-estar baseados nos animais nem '
-        'obrigação de monitorização sistemática.)',
+        'Art.º 10.º, n.º 1, al. b) — dever de vigiar o animal de modo a evitar que cause '
+        'danos (obrigação de vigilância; não equivale a monitorização de indicadores de '
+        'bem-estar).\n'
+        'Art.º 52.º, n.º 2 — inspeção dos animais no início e final do dia e a cada quatro '
+        'horas; primeiros cuidados imediatos.\n'
+        'Parcialmente coberto (periodicidade de inspeção regulada; sem sistema formal de '
+        'indicadores baseados nos animais nem obrigação de ação estruturada com base nos '
+        'resultados).',
+        'Art.º 47.º, n.º 3 — inspeção diária de todos os animais; primeiros cuidados '
+        'imediatos a doentes, lesionados ou com alterações comportamentais.\n'
+        'Parcialmente coberto (inspeção diária; sem sistema formal de indicadores de '
+        'bem-estar nem atos delegados equivalentes).',
     ),
 ]
 
